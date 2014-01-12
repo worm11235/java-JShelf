@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: JShelf-Core-SDK
+Bundle-SymbolicName: JShelf-Core-SDK;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: worm
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Import-Package: net.worm.jshelf.base.sdk.model,
+ net.worm.jshelf.base.sdk.service,
+ net.worm.jshelf.base.service,
+ net.worm.jshelf.base.util,
+ org.osgi.framework;version="1.3.0"
+Export-Package: net.worm.jshelf.base.sdk.model,
+ net.worm.jshelf.base.sdk.service,
+ net.worm.jshelf.user.sdk.model,
+ net.worm.jshelf.user.sdk.service

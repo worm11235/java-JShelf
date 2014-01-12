@@ -1,0 +1,933 @@
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:0 ] - [ DEBUG ]  Base bundle activator start.
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:22 ] - [ INFO ]  ServiceContext initialized as local.
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:41 ] - [ DEBUG ]  Base bundle activator started.
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:50 ] - [ DEBUG ]  Request to get service, app name: BaseApplication, service name: net.worm.jshelf.base.sdk.service.IAppManager
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:50 ] - [ DEBUG ]  Get app manager, return.
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:50 ] - [ DEBUG ]  Request to get service, app name: BaseApplication, service name: net.worm.jshelf.base.sdk.service.IDataManager
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:50 ] - [ DEBUG ]  Get data manager, return.
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:84 ] - [ DEBUG ]  Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:99 ] - [ DEBUG ]  Adding type registration boolean -> org.hibernate.type.BooleanType@77f7b377
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:100 ] - [ DEBUG ]  Adding type registration boolean -> org.hibernate.type.BooleanType@77f7b377
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:100 ] - [ DEBUG ]  Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@77f7b377
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:101 ] - [ DEBUG ]  Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@61ffdf0d
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:102 ] - [ DEBUG ]  Adding type registration true_false -> org.hibernate.type.TrueFalseType@475d6bd6
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:103 ] - [ DEBUG ]  Adding type registration yes_no -> org.hibernate.type.YesNoType@2b2d2ae8
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:105 ] - [ DEBUG ]  Adding type registration byte -> org.hibernate.type.ByteType@17febf91
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:106 ] - [ DEBUG ]  Adding type registration byte -> org.hibernate.type.ByteType@17febf91
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:108 ] - [ DEBUG ]  Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@17febf91
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:109 ] - [ DEBUG ]  Adding type registration character -> org.hibernate.type.CharacterType@2a4200d3
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:109 ] - [ DEBUG ]  Adding type registration char -> org.hibernate.type.CharacterType@2a4200d3
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:109 ] - [ DEBUG ]  Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@2a4200d3
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:111 ] - [ DEBUG ]  Adding type registration short -> org.hibernate.type.ShortType@15f3cd62
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:112 ] - [ DEBUG ]  Adding type registration short -> org.hibernate.type.ShortType@15f3cd62
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:112 ] - [ DEBUG ]  Adding type registration java.lang.Short -> org.hibernate.type.ShortType@15f3cd62
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:113 ] - [ DEBUG ]  Adding type registration integer -> org.hibernate.type.IntegerType@4b48148
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:113 ] - [ DEBUG ]  Adding type registration int -> org.hibernate.type.IntegerType@4b48148
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:114 ] - [ DEBUG ]  Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@4b48148
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:115 ] - [ DEBUG ]  Adding type registration long -> org.hibernate.type.LongType@6298e03e
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:115 ] - [ DEBUG ]  Adding type registration long -> org.hibernate.type.LongType@6298e03e
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:116 ] - [ DEBUG ]  Adding type registration java.lang.Long -> org.hibernate.type.LongType@6298e03e
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:117 ] - [ DEBUG ]  Adding type registration float -> org.hibernate.type.FloatType@16ed889d
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:117 ] - [ DEBUG ]  Adding type registration float -> org.hibernate.type.FloatType@16ed889d
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:118 ] - [ DEBUG ]  Adding type registration java.lang.Float -> org.hibernate.type.FloatType@16ed889d
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:119 ] - [ DEBUG ]  Adding type registration double -> org.hibernate.type.DoubleType@3e2f3adb
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:119 ] - [ DEBUG ]  Adding type registration double -> org.hibernate.type.DoubleType@3e2f3adb
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:120 ] - [ DEBUG ]  Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@3e2f3adb
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:122 ] - [ DEBUG ]  Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@41917d6d
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:122 ] - [ DEBUG ]  Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@41917d6d
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:123 ] - [ DEBUG ]  Adding type registration big_integer -> org.hibernate.type.BigIntegerType@6275186
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:123 ] - [ DEBUG ]  Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@6275186
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:124 ] - [ DEBUG ]  Adding type registration string -> org.hibernate.type.StringType@5c51ee0a
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:125 ] - [ DEBUG ]  Adding type registration java.lang.String -> org.hibernate.type.StringType@5c51ee0a
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:126 ] - [ DEBUG ]  Adding type registration nstring -> org.hibernate.type.StringNVarcharType@29e3db80
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:126 ] - [ DEBUG ]  Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@6e1e88ea
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:127 ] - [ DEBUG ]  Adding type registration url -> org.hibernate.type.UrlType@57fb85a1
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:128 ] - [ DEBUG ]  Adding type registration java.net.URL -> org.hibernate.type.UrlType@57fb85a1
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:130 ] - [ DEBUG ]  Adding type registration date -> org.hibernate.type.DateType@5de4be4d
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:130 ] - [ DEBUG ]  Adding type registration java.sql.Date -> org.hibernate.type.DateType@5de4be4d
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:132 ] - [ DEBUG ]  Adding type registration time -> org.hibernate.type.TimeType@7d7cb4ff
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:132 ] - [ DEBUG ]  Adding type registration java.sql.Time -> org.hibernate.type.TimeType@7d7cb4ff
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:134 ] - [ DEBUG ]  Adding type registration timestamp -> org.hibernate.type.TimestampType@137ace67
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:134 ] - [ DEBUG ]  Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@137ace67
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:134 ] - [ DEBUG ]  Adding type registration java.util.Date -> org.hibernate.type.TimestampType@137ace67
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:135 ] - [ DEBUG ]  Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@62d1f025
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:137 ] - [ DEBUG ]  Adding type registration calendar -> org.hibernate.type.CalendarType@41b0dc8
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:137 ] - [ DEBUG ]  Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@41b0dc8
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:137 ] - [ DEBUG ]  Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@41b0dc8
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:138 ] - [ DEBUG ]  Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@15fb3b4
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:139 ] - [ DEBUG ]  Adding type registration locale -> org.hibernate.type.LocaleType@562f2ab0
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:139 ] - [ DEBUG ]  Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@562f2ab0
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:140 ] - [ DEBUG ]  Adding type registration currency -> org.hibernate.type.CurrencyType@1815b417
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:140 ] - [ DEBUG ]  Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@1815b417
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:141 ] - [ DEBUG ]  Adding type registration timezone -> org.hibernate.type.TimeZoneType@5513425f
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:142 ] - [ DEBUG ]  Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@5513425f
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:143 ] - [ DEBUG ]  Adding type registration class -> org.hibernate.type.ClassType@6bbd4bac
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:143 ] - [ DEBUG ]  Adding type registration java.lang.Class -> org.hibernate.type.ClassType@6bbd4bac
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:144 ] - [ DEBUG ]  Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@6c880adc
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:145 ] - [ DEBUG ]  Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@6c880adc
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:145 ] - [ DEBUG ]  Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@6c364890
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:146 ] - [ DEBUG ]  Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@550571f6
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:147 ] - [ DEBUG ]  Adding type registration binary -> org.hibernate.type.BinaryType@120bf7fe
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:147 ] - [ DEBUG ]  Adding type registration byte[] -> org.hibernate.type.BinaryType@120bf7fe
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:148 ] - [ DEBUG ]  Adding type registration [B -> org.hibernate.type.BinaryType@120bf7fe
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:149 ] - [ DEBUG ]  Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@b447963
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:149 ] - [ DEBUG ]  Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@b447963
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:150 ] - [ DEBUG ]  Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@b447963
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:150 ] - [ DEBUG ]  Adding type registration image -> org.hibernate.type.ImageType@3e8f0e73
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:151 ] - [ DEBUG ]  Adding type registration characters -> org.hibernate.type.CharArrayType@33da7214
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:152 ] - [ DEBUG ]  Adding type registration char[] -> org.hibernate.type.CharArrayType@33da7214
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:152 ] - [ DEBUG ]  Adding type registration [C -> org.hibernate.type.CharArrayType@33da7214
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:153 ] - [ DEBUG ]  Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@4d6b8458
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:153 ] - [ DEBUG ]  Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@4d6b8458
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:153 ] - [ DEBUG ]  Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@4d6b8458
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:154 ] - [ DEBUG ]  Adding type registration text -> org.hibernate.type.TextType@702557dd
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:155 ] - [ DEBUG ]  Adding type registration ntext -> org.hibernate.type.NTextType@3e014cc6
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:159 ] - [ DEBUG ]  Adding type registration blob -> org.hibernate.type.BlobType@6eff8ab2
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:159 ] - [ DEBUG ]  Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@6eff8ab2
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:160 ] - [ DEBUG ]  Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@191e8b08
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:164 ] - [ DEBUG ]  Adding type registration clob -> org.hibernate.type.ClobType@60209661
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:164 ] - [ DEBUG ]  Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@60209661
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:167 ] - [ DEBUG ]  Adding type registration nclob -> org.hibernate.type.NClobType@76b8ce34
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:168 ] - [ DEBUG ]  Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@76b8ce34
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:168 ] - [ DEBUG ]  Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@6c742ce7
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:169 ] - [ DEBUG ]  Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@4d16c61e
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:170 ] - [ DEBUG ]  Adding type registration serializable -> org.hibernate.type.SerializableType@43c319b9
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:172 ] - [ DEBUG ]  Adding type registration object -> org.hibernate.type.ObjectType@f8c1de5
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:173 ] - [ DEBUG ]  Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@f8c1de5
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:173 ] - [ DEBUG ]  Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@5d8c1b8
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:173 ] - [ DEBUG ]  Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@59961a07
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:174 ] - [ DEBUG ]  Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@d86ef84
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:174 ] - [ DEBUG ]  Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@15d6ca0c
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:174 ] - [ DEBUG ]  Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@486ae507
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:174 ] - [ DEBUG ]  Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@61e253b5
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:175 ] - [ DEBUG ]  Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@51e5c247
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:175 ] - [ DEBUG ]  Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@4335ed52
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:194 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:199 ] - [ INFO ]  HHH000412: Hibernate Core {4.2.0.Final}
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:201 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:203 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:215 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:216 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:217 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:217 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:218 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:219 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:220 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:221 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:221 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:222 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:223 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:223 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:224 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:225 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:226 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2013-09-20 21:14:45  [ Start Level Event Dispatcher:228 ] - [ INFO ]  HHH000044: Configuring from URL: bundleresource://22.fwk1994317148:1/application.properties
+2013-09-20 21:14:45  [ Framework Event Dispatcher:454 ] - [ DEBUG ]  Request to get service, app name: BaseApplication, service name: net.worm.jshelf.base.sdk.service.IAppManager
+2013-09-20 21:14:45  [ Framework Event Dispatcher:454 ] - [ DEBUG ]  Get app manager, return.
+2013-09-20 21:32:12  [ Start Level Event Dispatcher:0 ] - [ DEBUG ]  Base bundle activator start.
+2013-09-20 21:32:12  [ Start Level Event Dispatcher:23 ] - [ INFO ]  ServiceContext initialized as local.
+2013-09-20 21:32:12  [ Start Level Event Dispatcher:25 ] - [ DEBUG ]  RMI exporter initial, using port number:1099
+2013-09-20 21:32:12  [ Start Level Event Dispatcher:41 ] - [ DEBUG ]  Base bundle activator started.
+2013-09-20 21:32:12  [ Framework Event Dispatcher:44 ] - [ DEBUG ]  Export bundle :JShelf-Core-Base_1.0.0.qualifier [21]
+2013-09-20 21:32:12  [ Framework Event Dispatcher:54 ] - [ DEBUG ]  Unexport bundle :JShelf-Module-User_1.0.0.qualifier [22]
+2013-09-20 21:32:12  [ Framework Event Dispatcher:61 ] - [ DEBUG ]  Export bundle :org.eclipse.osgi_3.8.0.v20120529-1548 [0]
+2013-09-20 21:32:12  [ Framework Event Dispatcher:61 ] - [ DEBUG ]  Export bundle :org.apache.felix.gogo.shell_0.8.0.v201110170705 [1]
+2013-09-20 21:32:12  [ Framework Event Dispatcher:62 ] - [ DEBUG ]  Export bundle :org.eclipse.equinox.console_1.0.0.v20120522-1841 [2]
+2013-09-20 21:32:12  [ Framework Event Dispatcher:62 ] - [ DEBUG ]  Export bundle :JShelf-Core-SDK_1.0.0.qualifier [3]
+2013-09-20 21:32:12  [ Framework Event Dispatcher:62 ] - [ DEBUG ]  Export bundle :org.apache.felix.gogo.runtime_0.8.0.v201108120515 [4]
+2013-09-20 21:32:12  [ Framework Event Dispatcher:62 ] - [ DEBUG ]  Export bundle :javax.xml_1.3.4.v201005080400 [6]
+2013-09-20 21:32:12  [ Framework Event Dispatcher:65 ] - [ DEBUG ]  Export bundle :org.apache.felix.gogo.command_0.8.0.v201108120515 [7]
+2013-09-20 21:32:12  [ Framework Event Dispatcher:65 ] - [ DEBUG ]  Export bundle :javax.servlet_3.0.0.v201112011016 [8]
+2013-09-20 21:32:12  [ Framework Event Dispatcher:66 ] - [ DEBUG ]  Export bundle :org.eclipse.osgi.services_3.3.100.v20120522-1822 [9]
+2013-09-20 21:32:12  [ Framework Event Dispatcher:66 ] - [ DEBUG ]  Export bundle :org.eclipse.osgi.util_3.2.300.v20120522-1822 [10]
+2013-09-20 21:32:32  [ Start Level Event Dispatcher:0 ] - [ DEBUG ]  Base bundle activator start.
+2013-09-20 21:32:33  [ Start Level Event Dispatcher:23 ] - [ INFO ]  ServiceContext initialized as local.
+2013-09-20 21:32:33  [ Start Level Event Dispatcher:25 ] - [ DEBUG ]  RMI exporter initial, using port number:1099
+2013-09-20 21:32:33  [ Start Level Event Dispatcher:41 ] - [ DEBUG ]  Base bundle activator started.
+2013-09-20 21:32:33  [ Framework Event Dispatcher:44 ] - [ DEBUG ]  Export bundle :JShelf-Core-Base_1.0.0.qualifier [21]
+2013-09-20 21:32:33  [ Framework Event Dispatcher:52 ] - [ DEBUG ]  Unexport bundle :JShelf-Module-User_1.0.0.qualifier [22]
+2013-09-20 21:32:33  [ Framework Event Dispatcher:60 ] - [ DEBUG ]  Export bundle :org.eclipse.osgi_3.8.0.v20120529-1548 [0]
+2013-09-20 21:32:33  [ Framework Event Dispatcher:60 ] - [ DEBUG ]  Export bundle :org.apache.felix.gogo.shell_0.8.0.v201110170705 [1]
+2013-09-20 21:32:33  [ Framework Event Dispatcher:60 ] - [ DEBUG ]  Export bundle :org.eclipse.equinox.console_1.0.0.v20120522-1841 [2]
+2013-09-20 21:32:33  [ Framework Event Dispatcher:61 ] - [ DEBUG ]  Export bundle :JShelf-Core-SDK_1.0.0.qualifier [3]
+2013-09-20 21:32:33  [ Framework Event Dispatcher:61 ] - [ DEBUG ]  Export bundle :org.apache.felix.gogo.runtime_0.8.0.v201108120515 [4]
+2013-09-20 21:32:33  [ Framework Event Dispatcher:61 ] - [ DEBUG ]  Export bundle :javax.xml_1.3.4.v201005080400 [6]
+2013-09-20 21:32:33  [ Framework Event Dispatcher:64 ] - [ DEBUG ]  Export bundle :org.apache.felix.gogo.command_0.8.0.v201108120515 [7]
+2013-09-20 21:32:33  [ Framework Event Dispatcher:64 ] - [ DEBUG ]  Export bundle :javax.servlet_3.0.0.v201112011016 [8]
+2013-09-20 21:32:33  [ Framework Event Dispatcher:65 ] - [ DEBUG ]  Export bundle :org.eclipse.osgi.services_3.3.100.v20120522-1822 [9]
+2013-09-20 21:32:33  [ Framework Event Dispatcher:65 ] - [ DEBUG ]  Export bundle :org.eclipse.osgi.util_3.2.300.v20120522-1822 [10]
+2013-09-20 21:33:30  [ Start Level Event Dispatcher:0 ] - [ DEBUG ]  Base bundle activator start.
+2013-09-20 21:33:30  [ Start Level Event Dispatcher:22 ] - [ INFO ]  ServiceContext initialized as local.
+2013-09-20 21:33:30  [ Start Level Event Dispatcher:24 ] - [ DEBUG ]  RMI exporter initial, using port number:1099
+2013-09-20 21:33:30  [ Start Level Event Dispatcher:39 ] - [ DEBUG ]  Base bundle activator started.
+2013-09-20 21:33:30  [ Framework Event Dispatcher:40 ] - [ DEBUG ]  Export bundle :JShelf-Core-Base_1.0.0.qualifier [21]
+2013-09-20 21:33:30  [ Framework Event Dispatcher:53 ] - [ DEBUG ]  Unexport bundle :JShelf-Module-User_1.0.0.qualifier [22]
+2013-09-20 21:33:30  [ Framework Event Dispatcher:62 ] - [ DEBUG ]  Export bundle :org.eclipse.osgi_3.8.0.v20120529-1548 [0]
+2013-09-20 21:33:30  [ Framework Event Dispatcher:63 ] - [ DEBUG ]  Export bundle :org.apache.felix.gogo.shell_0.8.0.v201110170705 [1]
+2013-09-20 21:33:30  [ Framework Event Dispatcher:63 ] - [ DEBUG ]  Export bundle :org.eclipse.equinox.console_1.0.0.v20120522-1841 [2]
+2013-09-20 21:33:30  [ Framework Event Dispatcher:63 ] - [ DEBUG ]  Export bundle :JShelf-Core-SDK_1.0.0.qualifier [3]
+2013-09-20 21:33:30  [ Framework Event Dispatcher:63 ] - [ DEBUG ]  Export bundle :org.apache.felix.gogo.runtime_0.8.0.v201108120515 [4]
+2013-09-20 21:33:30  [ Framework Event Dispatcher:63 ] - [ DEBUG ]  Export bundle :javax.xml_1.3.4.v201005080400 [6]
+2013-09-20 21:33:30  [ Framework Event Dispatcher:66 ] - [ DEBUG ]  Export bundle :org.apache.felix.gogo.command_0.8.0.v201108120515 [7]
+2013-09-20 21:33:30  [ Framework Event Dispatcher:66 ] - [ DEBUG ]  Export bundle :javax.servlet_3.0.0.v201112011016 [8]
+2013-09-20 21:33:30  [ Framework Event Dispatcher:67 ] - [ DEBUG ]  Export bundle :org.eclipse.osgi.services_3.3.100.v20120522-1822 [9]
+2013-09-20 21:33:30  [ Framework Event Dispatcher:67 ] - [ DEBUG ]  Export bundle :org.eclipse.osgi.util_3.2.300.v20120522-1822 [10]
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:0 ] - [ DEBUG ]  Base bundle activator start.
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:22 ] - [ INFO ]  ServiceContext initialized as local.
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:24 ] - [ DEBUG ]  RMI exporter initial, using port number:1099
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:39 ] - [ DEBUG ]  Base bundle activator started.
+2013-09-20 21:34:18  [ Framework Event Dispatcher:41 ] - [ DEBUG ]  Export bundle :JShelf-Core-Base_1.0.0.qualifier [21]
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:46 ] - [ DEBUG ]  Request to get service, app name: BaseApplication, service name: net.worm.jshelf.base.sdk.service.IAppManager
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:46 ] - [ DEBUG ]  Get app manager, return.
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:46 ] - [ DEBUG ]  Request to get service, app name: BaseApplication, service name: net.worm.jshelf.base.sdk.service.IDataManager
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:47 ] - [ DEBUG ]  Get data manager, return.
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:78 ] - [ DEBUG ]  Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:101 ] - [ DEBUG ]  Adding type registration boolean -> org.hibernate.type.BooleanType@42c46000
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:101 ] - [ DEBUG ]  Adding type registration boolean -> org.hibernate.type.BooleanType@42c46000
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:102 ] - [ DEBUG ]  Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@42c46000
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:103 ] - [ DEBUG ]  Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@38747597
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:104 ] - [ DEBUG ]  Adding type registration true_false -> org.hibernate.type.TrueFalseType@17246baf
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:105 ] - [ DEBUG ]  Adding type registration yes_no -> org.hibernate.type.YesNoType@6b2cdff2
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:114 ] - [ DEBUG ]  Adding type registration byte -> org.hibernate.type.ByteType@9ea5ab4
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:115 ] - [ DEBUG ]  Adding type registration byte -> org.hibernate.type.ByteType@9ea5ab4
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:115 ] - [ DEBUG ]  Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@9ea5ab4
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:116 ] - [ DEBUG ]  Adding type registration character -> org.hibernate.type.CharacterType@243634f2
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:117 ] - [ DEBUG ]  Adding type registration char -> org.hibernate.type.CharacterType@243634f2
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:117 ] - [ DEBUG ]  Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@243634f2
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:119 ] - [ DEBUG ]  Adding type registration short -> org.hibernate.type.ShortType@78a1068
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:119 ] - [ DEBUG ]  Adding type registration short -> org.hibernate.type.ShortType@78a1068
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:120 ] - [ DEBUG ]  Adding type registration java.lang.Short -> org.hibernate.type.ShortType@78a1068
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:121 ] - [ DEBUG ]  Adding type registration integer -> org.hibernate.type.IntegerType@d8a9586
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:121 ] - [ DEBUG ]  Adding type registration int -> org.hibernate.type.IntegerType@d8a9586
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:121 ] - [ DEBUG ]  Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@d8a9586
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:123 ] - [ DEBUG ]  Adding type registration long -> org.hibernate.type.LongType@2d2d693b
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:123 ] - [ DEBUG ]  Adding type registration long -> org.hibernate.type.LongType@2d2d693b
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:124 ] - [ DEBUG ]  Adding type registration java.lang.Long -> org.hibernate.type.LongType@2d2d693b
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:125 ] - [ DEBUG ]  Adding type registration float -> org.hibernate.type.FloatType@6a253983
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:126 ] - [ DEBUG ]  Adding type registration float -> org.hibernate.type.FloatType@6a253983
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:126 ] - [ DEBUG ]  Adding type registration java.lang.Float -> org.hibernate.type.FloatType@6a253983
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:127 ] - [ DEBUG ]  Adding type registration double -> org.hibernate.type.DoubleType@46580bf
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:128 ] - [ DEBUG ]  Adding type registration double -> org.hibernate.type.DoubleType@46580bf
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:128 ] - [ DEBUG ]  Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@46580bf
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:130 ] - [ DEBUG ]  Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@367ee335
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:130 ] - [ DEBUG ]  Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@367ee335
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:132 ] - [ DEBUG ]  Adding type registration big_integer -> org.hibernate.type.BigIntegerType@450f897f
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:132 ] - [ DEBUG ]  Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@450f897f
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:133 ] - [ DEBUG ]  Adding type registration string -> org.hibernate.type.StringType@11d7d5ee
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:133 ] - [ DEBUG ]  Adding type registration java.lang.String -> org.hibernate.type.StringType@11d7d5ee
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:134 ] - [ DEBUG ]  Adding type registration nstring -> org.hibernate.type.StringNVarcharType@76e9e1a0
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:135 ] - [ DEBUG ]  Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@13cd6d16
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:136 ] - [ DEBUG ]  Adding type registration url -> org.hibernate.type.UrlType@4709eb46
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:137 ] - [ DEBUG ]  Adding type registration java.net.URL -> org.hibernate.type.UrlType@4709eb46
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:138 ] - [ DEBUG ]  Adding type registration date -> org.hibernate.type.DateType@4c06df93
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:139 ] - [ DEBUG ]  Adding type registration java.sql.Date -> org.hibernate.type.DateType@4c06df93
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:140 ] - [ DEBUG ]  Adding type registration time -> org.hibernate.type.TimeType@17d59c5b
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:141 ] - [ DEBUG ]  Adding type registration java.sql.Time -> org.hibernate.type.TimeType@17d59c5b
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:142 ] - [ DEBUG ]  Adding type registration timestamp -> org.hibernate.type.TimestampType@40d8b2eb
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:143 ] - [ DEBUG ]  Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@40d8b2eb
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:143 ] - [ DEBUG ]  Adding type registration java.util.Date -> org.hibernate.type.TimestampType@40d8b2eb
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:145 ] - [ DEBUG ]  Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@1aa58969
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:146 ] - [ DEBUG ]  Adding type registration calendar -> org.hibernate.type.CalendarType@7c7dfe39
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:146 ] - [ DEBUG ]  Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@7c7dfe39
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:146 ] - [ DEBUG ]  Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@7c7dfe39
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:147 ] - [ DEBUG ]  Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@598360d5
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:148 ] - [ DEBUG ]  Adding type registration locale -> org.hibernate.type.LocaleType@44ec72d0
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:148 ] - [ DEBUG ]  Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@44ec72d0
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:149 ] - [ DEBUG ]  Adding type registration currency -> org.hibernate.type.CurrencyType@77b5c3de
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:150 ] - [ DEBUG ]  Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@77b5c3de
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:151 ] - [ DEBUG ]  Adding type registration timezone -> org.hibernate.type.TimeZoneType@6184d88
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:151 ] - [ DEBUG ]  Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@6184d88
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:152 ] - [ DEBUG ]  Adding type registration class -> org.hibernate.type.ClassType@6538b0f9
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:152 ] - [ DEBUG ]  Adding type registration java.lang.Class -> org.hibernate.type.ClassType@6538b0f9
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:154 ] - [ DEBUG ]  Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@64a6138a
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:154 ] - [ DEBUG ]  Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@64a6138a
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:155 ] - [ DEBUG ]  Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@4e3ceb07
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:155 ] - [ DEBUG ]  Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@3849e93e
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:157 ] - [ DEBUG ]  Adding type registration binary -> org.hibernate.type.BinaryType@7bbc4277
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:157 ] - [ DEBUG ]  Adding type registration byte[] -> org.hibernate.type.BinaryType@7bbc4277
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:157 ] - [ DEBUG ]  Adding type registration [B -> org.hibernate.type.BinaryType@7bbc4277
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:158 ] - [ DEBUG ]  Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@6d1e7dd8
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:158 ] - [ DEBUG ]  Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@6d1e7dd8
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:159 ] - [ DEBUG ]  Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@6d1e7dd8
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:160 ] - [ DEBUG ]  Adding type registration image -> org.hibernate.type.ImageType@53aa9a4e
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:161 ] - [ DEBUG ]  Adding type registration characters -> org.hibernate.type.CharArrayType@26d68a6e
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:161 ] - [ DEBUG ]  Adding type registration char[] -> org.hibernate.type.CharArrayType@26d68a6e
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:161 ] - [ DEBUG ]  Adding type registration [C -> org.hibernate.type.CharArrayType@26d68a6e
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:162 ] - [ DEBUG ]  Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@1ba5a755
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:162 ] - [ DEBUG ]  Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@1ba5a755
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:163 ] - [ DEBUG ]  Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@1ba5a755
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:164 ] - [ DEBUG ]  Adding type registration text -> org.hibernate.type.TextType@6c0bb03
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:164 ] - [ DEBUG ]  Adding type registration ntext -> org.hibernate.type.NTextType@48c8ba50
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:169 ] - [ DEBUG ]  Adding type registration blob -> org.hibernate.type.BlobType@53028e9e
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:169 ] - [ DEBUG ]  Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@53028e9e
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:169 ] - [ DEBUG ]  Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@3952f8a3
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:173 ] - [ DEBUG ]  Adding type registration clob -> org.hibernate.type.ClobType@3f2c6850
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:174 ] - [ DEBUG ]  Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@3f2c6850
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:177 ] - [ DEBUG ]  Adding type registration nclob -> org.hibernate.type.NClobType@71eb195f
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:177 ] - [ DEBUG ]  Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@71eb195f
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:178 ] - [ DEBUG ]  Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@48723f80
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:178 ] - [ DEBUG ]  Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@70317b12
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:180 ] - [ DEBUG ]  Adding type registration serializable -> org.hibernate.type.SerializableType@157576df
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:182 ] - [ DEBUG ]  Adding type registration object -> org.hibernate.type.ObjectType@391115ac
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:183 ] - [ DEBUG ]  Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@391115ac
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:183 ] - [ DEBUG ]  Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@65ad9b63
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:184 ] - [ DEBUG ]  Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@68b4b4bb
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:184 ] - [ DEBUG ]  Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@2fc596b1
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:184 ] - [ DEBUG ]  Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@552856f7
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:184 ] - [ DEBUG ]  Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@4b659dce
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:185 ] - [ DEBUG ]  Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@7c5b660d
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:185 ] - [ DEBUG ]  Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@54891f43
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:185 ] - [ DEBUG ]  Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@76639310
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:205 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:211 ] - [ INFO ]  HHH000412: Hibernate Core {4.2.0.Final}
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:213 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:215 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:228 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:228 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:229 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:230 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:231 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:231 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:232 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:233 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:234 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:234 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:235 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:235 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:236 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:237 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:238 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2013-09-20 21:34:18  [ Start Level Event Dispatcher:240 ] - [ INFO ]  HHH000044: Configuring from URL: bundleresource://23.fwk1196603476:1/application.properties
+2013-09-20 21:34:19  [ Framework Event Dispatcher:292 ] - [ DEBUG ]  Export bundle :JShelf-Module-User_1.0.0.qualifier [23]
+2013-09-20 21:34:19  [ Framework Event Dispatcher:482 ] - [ DEBUG ]  Request to get service, app name: BaseApplication, service name: net.worm.jshelf.base.sdk.service.IAppManager
+2013-09-20 21:34:19  [ Framework Event Dispatcher:482 ] - [ DEBUG ]  Get app manager, return.
+2013-09-20 21:34:19  [ Framework Event Dispatcher:482 ] - [ DEBUG ]  Export bundle :org.eclipse.osgi_3.8.0.v20120529-1548 [0]
+2013-09-20 21:34:19  [ Framework Event Dispatcher:483 ] - [ DEBUG ]  Export bundle :org.apache.felix.gogo.shell_0.8.0.v201110170705 [1]
+2013-09-20 21:34:19  [ Framework Event Dispatcher:483 ] - [ DEBUG ]  Export bundle :org.eclipse.equinox.console_1.0.0.v20120522-1841 [2]
+2013-09-20 21:34:19  [ Framework Event Dispatcher:483 ] - [ DEBUG ]  Export bundle :JShelf-Core-SDK_1.0.0.qualifier [3]
+2013-09-20 21:34:19  [ Framework Event Dispatcher:483 ] - [ DEBUG ]  Export bundle :org.apache.felix.gogo.runtime_0.8.0.v201108120515 [4]
+2013-09-20 21:34:19  [ Framework Event Dispatcher:483 ] - [ DEBUG ]  Export bundle :javax.xml_1.3.4.v201005080400 [6]
+2013-09-20 21:34:19  [ Framework Event Dispatcher:484 ] - [ DEBUG ]  Export bundle :org.apache.felix.gogo.command_0.8.0.v201108120515 [7]
+2013-09-20 21:34:19  [ Framework Event Dispatcher:484 ] - [ DEBUG ]  Export bundle :javax.servlet_3.0.0.v201112011016 [8]
+2013-09-20 21:34:19  [ Framework Event Dispatcher:485 ] - [ DEBUG ]  Export bundle :org.eclipse.osgi.services_3.3.100.v20120522-1822 [9]
+2013-09-20 21:34:19  [ Framework Event Dispatcher:485 ] - [ DEBUG ]  Export bundle :org.eclipse.osgi.util_3.2.300.v20120522-1822 [10]
+2013-09-20 21:41:28  [ RMI TCP Connection(9)-192.168.1.101:429354 ] - [ DEBUG ]  
+2013-09-20 21:42:24  [ RMI TCP Connection(11)-192.168.1.101:485359 ] - [ DEBUG ]  )createUser(null
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:0 ] - [ DEBUG ]  Base bundle activator start.
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:25 ] - [ INFO ]  ServiceContext initialized as local.
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:27 ] - [ DEBUG ]  RMI exporter initial, using port number:1099
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:43 ] - [ DEBUG ]  Base bundle activator started.
+2013-09-20 21:44:37  [ Framework Event Dispatcher:43 ] - [ DEBUG ]  Export bundle :JShelf-Core-Base_1.0.0.qualifier [21]
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:54 ] - [ DEBUG ]  Request to get service, app name: BaseApplication, service name: net.worm.jshelf.base.sdk.service.IAppManager
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:54 ] - [ DEBUG ]  Get app manager, return.
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:55 ] - [ DEBUG ]  Request to get service, app name: BaseApplication, service name: net.worm.jshelf.base.sdk.service.IDataManager
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:55 ] - [ DEBUG ]  Get data manager, return.
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:86 ] - [ DEBUG ]  Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:101 ] - [ DEBUG ]  Adding type registration boolean -> org.hibernate.type.BooleanType@2d84dc98
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:102 ] - [ DEBUG ]  Adding type registration boolean -> org.hibernate.type.BooleanType@2d84dc98
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:102 ] - [ DEBUG ]  Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@2d84dc98
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:103 ] - [ DEBUG ]  Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@31125c11
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:105 ] - [ DEBUG ]  Adding type registration true_false -> org.hibernate.type.TrueFalseType@2fd69103
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:106 ] - [ DEBUG ]  Adding type registration yes_no -> org.hibernate.type.YesNoType@5c25bf03
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:110 ] - [ DEBUG ]  Adding type registration byte -> org.hibernate.type.ByteType@be4535e
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:110 ] - [ DEBUG ]  Adding type registration byte -> org.hibernate.type.ByteType@be4535e
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:110 ] - [ DEBUG ]  Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@be4535e
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:111 ] - [ DEBUG ]  Adding type registration character -> org.hibernate.type.CharacterType@1ad70640
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:112 ] - [ DEBUG ]  Adding type registration char -> org.hibernate.type.CharacterType@1ad70640
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:112 ] - [ DEBUG ]  Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@1ad70640
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:114 ] - [ DEBUG ]  Adding type registration short -> org.hibernate.type.ShortType@22e2d428
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:114 ] - [ DEBUG ]  Adding type registration short -> org.hibernate.type.ShortType@22e2d428
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:115 ] - [ DEBUG ]  Adding type registration java.lang.Short -> org.hibernate.type.ShortType@22e2d428
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:116 ] - [ DEBUG ]  Adding type registration integer -> org.hibernate.type.IntegerType@6232c7b5
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:116 ] - [ DEBUG ]  Adding type registration int -> org.hibernate.type.IntegerType@6232c7b5
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:116 ] - [ DEBUG ]  Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@6232c7b5
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:118 ] - [ DEBUG ]  Adding type registration long -> org.hibernate.type.LongType@24c96a1a
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:118 ] - [ DEBUG ]  Adding type registration long -> org.hibernate.type.LongType@24c96a1a
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:118 ] - [ DEBUG ]  Adding type registration java.lang.Long -> org.hibernate.type.LongType@24c96a1a
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:120 ] - [ DEBUG ]  Adding type registration float -> org.hibernate.type.FloatType@4868c6ed
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:120 ] - [ DEBUG ]  Adding type registration float -> org.hibernate.type.FloatType@4868c6ed
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:120 ] - [ DEBUG ]  Adding type registration java.lang.Float -> org.hibernate.type.FloatType@4868c6ed
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:122 ] - [ DEBUG ]  Adding type registration double -> org.hibernate.type.DoubleType@67a62feb
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:122 ] - [ DEBUG ]  Adding type registration double -> org.hibernate.type.DoubleType@67a62feb
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:122 ] - [ DEBUG ]  Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@67a62feb
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:124 ] - [ DEBUG ]  Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@61d0d735
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:125 ] - [ DEBUG ]  Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@61d0d735
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:126 ] - [ DEBUG ]  Adding type registration big_integer -> org.hibernate.type.BigIntegerType@45093bde
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:126 ] - [ DEBUG ]  Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@45093bde
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:127 ] - [ DEBUG ]  Adding type registration string -> org.hibernate.type.StringType@4f15cfc9
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:127 ] - [ DEBUG ]  Adding type registration java.lang.String -> org.hibernate.type.StringType@4f15cfc9
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:129 ] - [ DEBUG ]  Adding type registration nstring -> org.hibernate.type.StringNVarcharType@185c1d56
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:129 ] - [ DEBUG ]  Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@1bc50966
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:131 ] - [ DEBUG ]  Adding type registration url -> org.hibernate.type.UrlType@34c45a8d
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:131 ] - [ DEBUG ]  Adding type registration java.net.URL -> org.hibernate.type.UrlType@34c45a8d
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:133 ] - [ DEBUG ]  Adding type registration date -> org.hibernate.type.DateType@4d53ae47
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:133 ] - [ DEBUG ]  Adding type registration java.sql.Date -> org.hibernate.type.DateType@4d53ae47
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:135 ] - [ DEBUG ]  Adding type registration time -> org.hibernate.type.TimeType@7fd36e0a
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:135 ] - [ DEBUG ]  Adding type registration java.sql.Time -> org.hibernate.type.TimeType@7fd36e0a
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:136 ] - [ DEBUG ]  Adding type registration timestamp -> org.hibernate.type.TimestampType@3002b557
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:137 ] - [ DEBUG ]  Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@3002b557
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:137 ] - [ DEBUG ]  Adding type registration java.util.Date -> org.hibernate.type.TimestampType@3002b557
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:139 ] - [ DEBUG ]  Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@459af028
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:140 ] - [ DEBUG ]  Adding type registration calendar -> org.hibernate.type.CalendarType@46496daa
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:140 ] - [ DEBUG ]  Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@46496daa
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:140 ] - [ DEBUG ]  Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@46496daa
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:141 ] - [ DEBUG ]  Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@2a204461
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:142 ] - [ DEBUG ]  Adding type registration locale -> org.hibernate.type.LocaleType@450f897f
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:142 ] - [ DEBUG ]  Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@450f897f
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:143 ] - [ DEBUG ]  Adding type registration currency -> org.hibernate.type.CurrencyType@74dcfce0
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:144 ] - [ DEBUG ]  Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@74dcfce0
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:145 ] - [ DEBUG ]  Adding type registration timezone -> org.hibernate.type.TimeZoneType@75a6bd5
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:145 ] - [ DEBUG ]  Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@75a6bd5
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:146 ] - [ DEBUG ]  Adding type registration class -> org.hibernate.type.ClassType@181cbbe6
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:147 ] - [ DEBUG ]  Adding type registration java.lang.Class -> org.hibernate.type.ClassType@181cbbe6
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:148 ] - [ DEBUG ]  Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@3b9187c7
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:148 ] - [ DEBUG ]  Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@3b9187c7
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:149 ] - [ DEBUG ]  Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@2f9e14af
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:150 ] - [ DEBUG ]  Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@302e15fc
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:151 ] - [ DEBUG ]  Adding type registration binary -> org.hibernate.type.BinaryType@13e98d49
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:151 ] - [ DEBUG ]  Adding type registration byte[] -> org.hibernate.type.BinaryType@13e98d49
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:152 ] - [ DEBUG ]  Adding type registration [B -> org.hibernate.type.BinaryType@13e98d49
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:153 ] - [ DEBUG ]  Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@6c413447
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:153 ] - [ DEBUG ]  Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@6c413447
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:153 ] - [ DEBUG ]  Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@6c413447
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:154 ] - [ DEBUG ]  Adding type registration image -> org.hibernate.type.ImageType@7154b2f
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:155 ] - [ DEBUG ]  Adding type registration characters -> org.hibernate.type.CharArrayType@11f846cd
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:155 ] - [ DEBUG ]  Adding type registration char[] -> org.hibernate.type.CharArrayType@11f846cd
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:156 ] - [ DEBUG ]  Adding type registration [C -> org.hibernate.type.CharArrayType@11f846cd
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:157 ] - [ DEBUG ]  Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@6adaf50c
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:157 ] - [ DEBUG ]  Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@6adaf50c
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:157 ] - [ DEBUG ]  Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@6adaf50c
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:158 ] - [ DEBUG ]  Adding type registration text -> org.hibernate.type.TextType@4d72c9d1
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:159 ] - [ DEBUG ]  Adding type registration ntext -> org.hibernate.type.NTextType@69e05a29
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:163 ] - [ DEBUG ]  Adding type registration blob -> org.hibernate.type.BlobType@2191fa12
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:163 ] - [ DEBUG ]  Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@2191fa12
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:164 ] - [ DEBUG ]  Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@64c46cfc
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:168 ] - [ DEBUG ]  Adding type registration clob -> org.hibernate.type.ClobType@39ad96d5
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:168 ] - [ DEBUG ]  Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@39ad96d5
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:172 ] - [ DEBUG ]  Adding type registration nclob -> org.hibernate.type.NClobType@110bc849
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:172 ] - [ DEBUG ]  Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@110bc849
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:172 ] - [ DEBUG ]  Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@b342088
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:173 ] - [ DEBUG ]  Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@4a113af5
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:174 ] - [ DEBUG ]  Adding type registration serializable -> org.hibernate.type.SerializableType@56c9401d
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:177 ] - [ DEBUG ]  Adding type registration object -> org.hibernate.type.ObjectType@53028e9e
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:177 ] - [ DEBUG ]  Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@53028e9e
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:178 ] - [ DEBUG ]  Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@6d9c1fce
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:178 ] - [ DEBUG ]  Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@24ec459a
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:179 ] - [ DEBUG ]  Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@13cd9466
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:179 ] - [ DEBUG ]  Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@1dc9beb2
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:179 ] - [ DEBUG ]  Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@2806a765
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:179 ] - [ DEBUG ]  Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@4cd7ec6a
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:180 ] - [ DEBUG ]  Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@73e24a8f
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:180 ] - [ DEBUG ]  Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@d8d2db9
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:200 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:206 ] - [ INFO ]  HHH000412: Hibernate Core {4.2.0.Final}
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:208 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:210 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:222 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:223 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:223 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:224 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:225 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:225 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:227 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:227 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:228 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:228 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:229 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:230 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:230 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:231 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:232 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2013-09-20 21:44:37  [ Start Level Event Dispatcher:234 ] - [ INFO ]  HHH000044: Configuring from URL: bundleresource://23.fwk273713934:1/application.properties
+2013-09-20 21:44:37  [ Framework Event Dispatcher:280 ] - [ DEBUG ]  Export bundle :JShelf-Module-User_1.0.0.qualifier [23]
+2013-09-20 21:44:38  [ Framework Event Dispatcher:477 ] - [ DEBUG ]  Request to get service, app name: BaseApplication, service name: net.worm.jshelf.base.sdk.service.IAppManager
+2013-09-20 21:44:38  [ Framework Event Dispatcher:477 ] - [ DEBUG ]  Get app manager, return.
+2013-09-20 21:44:38  [ Framework Event Dispatcher:478 ] - [ DEBUG ]  Export bundle :org.eclipse.osgi_3.8.0.v20120529-1548 [0]
+2013-09-20 21:44:38  [ Framework Event Dispatcher:478 ] - [ DEBUG ]  Export bundle :org.apache.felix.gogo.shell_0.8.0.v201110170705 [1]
+2013-09-20 21:44:38  [ Framework Event Dispatcher:478 ] - [ DEBUG ]  Export bundle :org.eclipse.equinox.console_1.0.0.v20120522-1841 [2]
+2013-09-20 21:44:38  [ Framework Event Dispatcher:478 ] - [ DEBUG ]  Export bundle :JShelf-Core-SDK_1.0.0.qualifier [3]
+2013-09-20 21:44:38  [ Framework Event Dispatcher:479 ] - [ DEBUG ]  Export bundle :org.apache.felix.gogo.runtime_0.8.0.v201108120515 [4]
+2013-09-20 21:44:38  [ Framework Event Dispatcher:479 ] - [ DEBUG ]  Export bundle :javax.xml_1.3.4.v201005080400 [6]
+2013-09-20 21:44:38  [ Framework Event Dispatcher:481 ] - [ DEBUG ]  Export bundle :org.apache.felix.gogo.command_0.8.0.v201108120515 [7]
+2013-09-20 21:44:38  [ Framework Event Dispatcher:481 ] - [ DEBUG ]  Export bundle :javax.servlet_3.0.0.v201112011016 [8]
+2013-09-20 21:44:38  [ Framework Event Dispatcher:482 ] - [ DEBUG ]  Export bundle :org.eclipse.osgi.services_3.3.100.v20120522-1822 [9]
+2013-09-20 21:44:38  [ Framework Event Dispatcher:482 ] - [ DEBUG ]  Export bundle :org.eclipse.osgi.util_3.2.300.v20120522-1822 [10]
+2013-09-20 21:44:51  [ RMI TCP Connection(2)-192.168.1.101:14068 ] - [ DEBUG ]  )createUser(null
+2013-09-20 21:45:59  [ Start Level Event Dispatcher:0 ] - [ DEBUG ]  Base bundle activator start.
+2013-09-20 21:46:03  [ Start Level Event Dispatcher:3488 ] - [ INFO ]  ServiceContext initialized as local.
+2013-09-20 21:46:06  [ Start Level Event Dispatcher:6494 ] - [ DEBUG ]  RMI exporter initial, using port number:1099
+2013-09-20 21:46:06  [ Start Level Event Dispatcher:6526 ] - [ DEBUG ]  Base bundle activator started.
+2013-09-20 21:46:06  [ Framework Event Dispatcher:6526 ] - [ DEBUG ]  Export bundle :JShelf-Core-Base_1.0.0.qualifier [21]
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48645 ] - [ DEBUG ]  Request to get service, app name: BaseApplication, service name: net.worm.jshelf.base.sdk.service.IAppManager
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48646 ] - [ DEBUG ]  Get app manager, return.
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48648 ] - [ DEBUG ]  Request to get service, app name: BaseApplication, service name: net.worm.jshelf.base.sdk.service.IDataManager
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48648 ] - [ DEBUG ]  Get data manager, return.
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48695 ] - [ DEBUG ]  Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48711 ] - [ DEBUG ]  Adding type registration boolean -> org.hibernate.type.BooleanType@34233e98
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48712 ] - [ DEBUG ]  Adding type registration boolean -> org.hibernate.type.BooleanType@34233e98
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48712 ] - [ DEBUG ]  Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@34233e98
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48713 ] - [ DEBUG ]  Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@b8f0de2
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48715 ] - [ DEBUG ]  Adding type registration true_false -> org.hibernate.type.TrueFalseType@35758595
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48715 ] - [ DEBUG ]  Adding type registration yes_no -> org.hibernate.type.YesNoType@5ce06503
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48720 ] - [ DEBUG ]  Adding type registration byte -> org.hibernate.type.ByteType@6268ca71
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48720 ] - [ DEBUG ]  Adding type registration byte -> org.hibernate.type.ByteType@6268ca71
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48720 ] - [ DEBUG ]  Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@6268ca71
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48721 ] - [ DEBUG ]  Adding type registration character -> org.hibernate.type.CharacterType@43b3f709
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48722 ] - [ DEBUG ]  Adding type registration char -> org.hibernate.type.CharacterType@43b3f709
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48722 ] - [ DEBUG ]  Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@43b3f709
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48724 ] - [ DEBUG ]  Adding type registration short -> org.hibernate.type.ShortType@7e33d502
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48724 ] - [ DEBUG ]  Adding type registration short -> org.hibernate.type.ShortType@7e33d502
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48725 ] - [ DEBUG ]  Adding type registration java.lang.Short -> org.hibernate.type.ShortType@7e33d502
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48726 ] - [ DEBUG ]  Adding type registration integer -> org.hibernate.type.IntegerType@4e062c51
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48726 ] - [ DEBUG ]  Adding type registration int -> org.hibernate.type.IntegerType@4e062c51
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48727 ] - [ DEBUG ]  Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@4e062c51
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48728 ] - [ DEBUG ]  Adding type registration long -> org.hibernate.type.LongType@c1c084f
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48729 ] - [ DEBUG ]  Adding type registration long -> org.hibernate.type.LongType@c1c084f
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48729 ] - [ DEBUG ]  Adding type registration java.lang.Long -> org.hibernate.type.LongType@c1c084f
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48731 ] - [ DEBUG ]  Adding type registration float -> org.hibernate.type.FloatType@65780f1
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48731 ] - [ DEBUG ]  Adding type registration float -> org.hibernate.type.FloatType@65780f1
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48732 ] - [ DEBUG ]  Adding type registration java.lang.Float -> org.hibernate.type.FloatType@65780f1
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48733 ] - [ DEBUG ]  Adding type registration double -> org.hibernate.type.DoubleType@46e23a42
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48733 ] - [ DEBUG ]  Adding type registration double -> org.hibernate.type.DoubleType@46e23a42
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48733 ] - [ DEBUG ]  Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@46e23a42
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48735 ] - [ DEBUG ]  Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@7c68969c
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48736 ] - [ DEBUG ]  Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@7c68969c
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48737 ] - [ DEBUG ]  Adding type registration big_integer -> org.hibernate.type.BigIntegerType@6740568
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48737 ] - [ DEBUG ]  Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@6740568
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48738 ] - [ DEBUG ]  Adding type registration string -> org.hibernate.type.StringType@225bb9ae
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48738 ] - [ DEBUG ]  Adding type registration java.lang.String -> org.hibernate.type.StringType@225bb9ae
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48739 ] - [ DEBUG ]  Adding type registration nstring -> org.hibernate.type.StringNVarcharType@2df2888
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48740 ] - [ DEBUG ]  Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@74f62f97
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48741 ] - [ DEBUG ]  Adding type registration url -> org.hibernate.type.UrlType@39ed13a3
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48742 ] - [ DEBUG ]  Adding type registration java.net.URL -> org.hibernate.type.UrlType@39ed13a3
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48744 ] - [ DEBUG ]  Adding type registration date -> org.hibernate.type.DateType@a2dbd15
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48744 ] - [ DEBUG ]  Adding type registration java.sql.Date -> org.hibernate.type.DateType@a2dbd15
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48746 ] - [ DEBUG ]  Adding type registration time -> org.hibernate.type.TimeType@62f242cc
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48747 ] - [ DEBUG ]  Adding type registration java.sql.Time -> org.hibernate.type.TimeType@62f242cc
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48749 ] - [ DEBUG ]  Adding type registration timestamp -> org.hibernate.type.TimestampType@7fe85830
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48749 ] - [ DEBUG ]  Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@7fe85830
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48749 ] - [ DEBUG ]  Adding type registration java.util.Date -> org.hibernate.type.TimestampType@7fe85830
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48751 ] - [ DEBUG ]  Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@64ad5ff2
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48752 ] - [ DEBUG ]  Adding type registration calendar -> org.hibernate.type.CalendarType@4ad1511c
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48752 ] - [ DEBUG ]  Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@4ad1511c
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48752 ] - [ DEBUG ]  Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@4ad1511c
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48753 ] - [ DEBUG ]  Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@39a3014f
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48754 ] - [ DEBUG ]  Adding type registration locale -> org.hibernate.type.LocaleType@6ceadf59
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48755 ] - [ DEBUG ]  Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@6ceadf59
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48756 ] - [ DEBUG ]  Adding type registration currency -> org.hibernate.type.CurrencyType@59f322a4
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48756 ] - [ DEBUG ]  Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@59f322a4
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48757 ] - [ DEBUG ]  Adding type registration timezone -> org.hibernate.type.TimeZoneType@14a002b1
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48757 ] - [ DEBUG ]  Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@14a002b1
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48758 ] - [ DEBUG ]  Adding type registration class -> org.hibernate.type.ClassType@25b3c442
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48759 ] - [ DEBUG ]  Adding type registration java.lang.Class -> org.hibernate.type.ClassType@25b3c442
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48760 ] - [ DEBUG ]  Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@25930632
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48761 ] - [ DEBUG ]  Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@25930632
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48761 ] - [ DEBUG ]  Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@6353ebbd
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48762 ] - [ DEBUG ]  Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@61f0c437
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48763 ] - [ DEBUG ]  Adding type registration binary -> org.hibernate.type.BinaryType@4b4603d6
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48764 ] - [ DEBUG ]  Adding type registration byte[] -> org.hibernate.type.BinaryType@4b4603d6
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48764 ] - [ DEBUG ]  Adding type registration [B -> org.hibernate.type.BinaryType@4b4603d6
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48765 ] - [ DEBUG ]  Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@438cc39e
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48765 ] - [ DEBUG ]  Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@438cc39e
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48766 ] - [ DEBUG ]  Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@438cc39e
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48767 ] - [ DEBUG ]  Adding type registration image -> org.hibernate.type.ImageType@b43c677
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48768 ] - [ DEBUG ]  Adding type registration characters -> org.hibernate.type.CharArrayType@5497d017
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48768 ] - [ DEBUG ]  Adding type registration char[] -> org.hibernate.type.CharArrayType@5497d017
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48768 ] - [ DEBUG ]  Adding type registration [C -> org.hibernate.type.CharArrayType@5497d017
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48769 ] - [ DEBUG ]  Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@1ca23ad
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48770 ] - [ DEBUG ]  Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@1ca23ad
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48770 ] - [ DEBUG ]  Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@1ca23ad
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48771 ] - [ DEBUG ]  Adding type registration text -> org.hibernate.type.TextType@5b345b80
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48772 ] - [ DEBUG ]  Adding type registration ntext -> org.hibernate.type.NTextType@f33e664
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48776 ] - [ DEBUG ]  Adding type registration blob -> org.hibernate.type.BlobType@2236052c
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48776 ] - [ DEBUG ]  Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@2236052c
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48777 ] - [ DEBUG ]  Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@31212883
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48781 ] - [ DEBUG ]  Adding type registration clob -> org.hibernate.type.ClobType@4c59e8ae
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48781 ] - [ DEBUG ]  Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@4c59e8ae
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48784 ] - [ DEBUG ]  Adding type registration nclob -> org.hibernate.type.NClobType@490ec476
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48785 ] - [ DEBUG ]  Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@490ec476
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48785 ] - [ DEBUG ]  Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@39991cba
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48786 ] - [ DEBUG ]  Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@730d6938
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48787 ] - [ DEBUG ]  Adding type registration serializable -> org.hibernate.type.SerializableType@4e94ac10
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48790 ] - [ DEBUG ]  Adding type registration object -> org.hibernate.type.ObjectType@241ca7d8
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48791 ] - [ DEBUG ]  Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@241ca7d8
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48791 ] - [ DEBUG ]  Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@4715407a
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48792 ] - [ DEBUG ]  Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@443c2e0b
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48792 ] - [ DEBUG ]  Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@4af2f72c
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48792 ] - [ DEBUG ]  Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@15419025
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48792 ] - [ DEBUG ]  Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@35e780a
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48793 ] - [ DEBUG ]  Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@2f1ada40
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48793 ] - [ DEBUG ]  Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@beeb7e9
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48793 ] - [ DEBUG ]  Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@656c281d
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48813 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48819 ] - [ INFO ]  HHH000412: Hibernate Core {4.2.0.Final}
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48821 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48823 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48835 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48836 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48837 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48837 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48838 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48839 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48840 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48841 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48841 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48842 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48843 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48843 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48844 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48845 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48846 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2013-09-20 21:46:48  [ Start Level Event Dispatcher:48849 ] - [ INFO ]  HHH000044: Configuring from URL: bundleresource://23.fwk1196603476:1/application.properties
+2013-09-20 21:46:48  [ Framework Event Dispatcher:48894 ] - [ DEBUG ]  Export bundle :JShelf-Module-User_1.0.0.qualifier [23]
+2013-09-20 21:46:48  [ Framework Event Dispatcher:49090 ] - [ DEBUG ]  Request to get service, app name: BaseApplication, service name: net.worm.jshelf.base.sdk.service.IAppManager
+2013-09-20 21:46:48  [ Framework Event Dispatcher:49091 ] - [ DEBUG ]  Get app manager, return.
+2013-09-20 21:46:48  [ Framework Event Dispatcher:49091 ] - [ DEBUG ]  Export bundle :org.eclipse.osgi_3.8.0.v20120529-1548 [0]
+2013-09-20 21:46:48  [ Framework Event Dispatcher:49091 ] - [ DEBUG ]  Export bundle :org.apache.felix.gogo.shell_0.8.0.v201110170705 [1]
+2013-09-20 21:46:48  [ Framework Event Dispatcher:49091 ] - [ DEBUG ]  Export bundle :org.eclipse.equinox.console_1.0.0.v20120522-1841 [2]
+2013-09-20 21:46:48  [ Framework Event Dispatcher:49092 ] - [ DEBUG ]  Export bundle :JShelf-Core-SDK_1.0.0.qualifier [3]
+2013-09-20 21:46:48  [ Framework Event Dispatcher:49092 ] - [ DEBUG ]  Export bundle :org.apache.felix.gogo.runtime_0.8.0.v201108120515 [4]
+2013-09-20 21:46:48  [ Framework Event Dispatcher:49092 ] - [ DEBUG ]  Export bundle :javax.xml_1.3.4.v201005080400 [6]
+2013-09-20 21:46:48  [ Framework Event Dispatcher:49094 ] - [ DEBUG ]  Export bundle :org.apache.felix.gogo.command_0.8.0.v201108120515 [7]
+2013-09-20 21:46:48  [ Framework Event Dispatcher:49095 ] - [ DEBUG ]  Export bundle :javax.servlet_3.0.0.v201112011016 [8]
+2013-09-20 21:46:48  [ Framework Event Dispatcher:49095 ] - [ DEBUG ]  Export bundle :org.eclipse.osgi.services_3.3.100.v20120522-1822 [9]
+2013-09-20 21:46:48  [ Framework Event Dispatcher:49095 ] - [ DEBUG ]  Export bundle :org.eclipse.osgi.util_3.2.300.v20120522-1822 [10]
+2013-09-20 21:48:26  [ Gogo shell:147192 ] - [ DEBUG ]  Request to get service, app name: BaseApplication, service name: net.worm.jshelf.base.sdk.service.IAppManager
+2013-09-20 21:48:26  [ Gogo shell:147193 ] - [ DEBUG ]  Get app manager, return.
+2013-09-20 21:48:26  [ Gogo shell:147194 ] - [ DEBUG ]  Request to get service, app name: BaseApplication, service name: net.worm.jshelf.base.sdk.service.IDataManager
+2013-09-20 21:48:26  [ Gogo shell:147194 ] - [ DEBUG ]  Get data manager, return.
+2013-09-20 21:48:26  [ Framework Event Dispatcher:147196 ] - [ DEBUG ]  Unexport bundle :JShelf-Module-User_1.0.0.qualifier [23]
+2013-09-20 21:48:32  [ Gogo shell:152833 ] - [ DEBUG ]  Request to get service, app name: BaseApplication, service name: net.worm.jshelf.base.sdk.service.IAppManager
+2013-09-20 21:48:32  [ Gogo shell:152833 ] - [ DEBUG ]  Get app manager, return.
+2013-09-20 21:48:32  [ Gogo shell:152834 ] - [ DEBUG ]  Request to get service, app name: BaseApplication, service name: net.worm.jshelf.base.sdk.service.IDataManager
+2013-09-20 21:48:32  [ Gogo shell:152835 ] - [ DEBUG ]  Get data manager, return.
+2013-09-20 21:48:32  [ Gogo shell:152835 ] - [ INFO ]  HHH000044: Configuring from URL: bundleresource://23.fwk1196603476:1/application.properties
+2013-09-20 21:48:32  [ Framework Event Dispatcher:152839 ] - [ DEBUG ]  Export bundle :JShelf-Module-User_1.0.0.qualifier [23]
+2013-09-20 21:48:32  [ Framework Event Dispatcher:152846 ] - [ DEBUG ]  Request to get service, app name: BaseApplication, service name: net.worm.jshelf.base.sdk.service.IAppManager
+2013-09-20 21:48:32  [ Framework Event Dispatcher:152846 ] - [ DEBUG ]  Get app manager, return.
+2013-09-20 21:49:39  [ Start Level Event Dispatcher:0 ] - [ DEBUG ]  Base bundle activator start.
+2013-09-20 21:49:43  [ Start Level Event Dispatcher:4432 ] - [ INFO ]  ServiceContext initialized as local.
+2013-09-20 21:49:50  [ Start Level Event Dispatcher:11522 ] - [ DEBUG ]  RMI exporter initial, using port number:1099
+2013-09-20 21:49:50  [ Start Level Event Dispatcher:11551 ] - [ ERROR ]  Initial RMI registry failed.
+java.rmi.server.ExportException: Port already in use: 1099; nested exception is: 
+	java.net.BindException: Address already in use: JVM_Bind
+	at sun.rmi.transport.tcp.TCPTransport.listen(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport.exportObject(Unknown Source)
+	at sun.rmi.transport.tcp.TCPEndpoint.exportObject(Unknown Source)
+	at sun.rmi.transport.LiveRef.exportObject(Unknown Source)
+	at sun.rmi.server.UnicastServerRef.exportObject(Unknown Source)
+	at sun.rmi.registry.RegistryImpl.setup(Unknown Source)
+	at sun.rmi.registry.RegistryImpl.<init>(Unknown Source)
+	at java.rmi.registry.LocateRegistry.createRegistry(Unknown Source)
+	at net.worm.jshelf.base.util.RmiExporter.<init>(RmiExporter.java:77)
+	at net.worm.jshelf.base.util.RmiExporter.getInstance(RmiExporter.java:88)
+	at net.worm.jshelf.base.Activator.start(Activator.java:51)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:711)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:702)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:683)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:381)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.resume(AbstractBundle.java:390)
+	at org.eclipse.osgi.framework.internal.core.Framework.resumeBundle(Framework.java:1177)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(StartLevelManager.java:559)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(StartLevelManager.java:544)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.incFWSL(StartLevelManager.java:457)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:243)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(StartLevelManager.java:438)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(StartLevelManager.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at sun.rmi.transport.proxy.RMIDirectSocketFactory.createServerSocket(Unknown Source)
+	at sun.rmi.transport.proxy.RMIMasterSocketFactory.createServerSocket(Unknown Source)
+	at sun.rmi.transport.tcp.TCPEndpoint.newServerSocket(Unknown Source)
+	... 26 more
+2013-09-20 21:49:50  [ Start Level Event Dispatcher:11559 ] - [ DEBUG ]  Base bundle activator started.
+2013-09-20 21:49:50  [ Framework Event Dispatcher:11562 ] - [ DEBUG ]  Export bundle :JShelf-Core-Base_1.0.0.qualifier [21]
+2013-09-20 21:50:25  [ RMI TCP Connection(2)-192.168.1.101:266069 ] - [ DEBUG ]  )createUser(null
+2013-09-20 21:53:29  [ Start Level Event Dispatcher:0 ] - [ DEBUG ]  Base bundle activator start.
+2013-09-20 21:53:30  [ Start Level Event Dispatcher:1119 ] - [ INFO ]  ServiceContext initialized as local.
+2013-09-20 21:53:31  [ Start Level Event Dispatcher:1821 ] - [ DEBUG ]  RMI exporter initial, using port number:1099
+2013-09-20 21:53:31  [ Start Level Event Dispatcher:1851 ] - [ DEBUG ]  Base bundle activator started.
+2013-09-20 21:53:31  [ Framework Event Dispatcher:1852 ] - [ DEBUG ]  Export bundle :JShelf-Core-Base_1.0.0.qualifier [21]
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4031 ] - [ DEBUG ]  Request to get service, app name: BaseApplication, service name: net.worm.jshelf.base.sdk.service.IAppManager
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4032 ] - [ DEBUG ]  Get app manager, return.
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4033 ] - [ DEBUG ]  Request to get service, app name: BaseApplication, service name: net.worm.jshelf.base.sdk.service.IDataManager
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4033 ] - [ DEBUG ]  Get data manager, return.
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4080 ] - [ DEBUG ]  Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4097 ] - [ DEBUG ]  Adding type registration boolean -> org.hibernate.type.BooleanType@101bde9
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4097 ] - [ DEBUG ]  Adding type registration boolean -> org.hibernate.type.BooleanType@101bde9
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4097 ] - [ DEBUG ]  Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@101bde9
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4098 ] - [ DEBUG ]  Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@36664140
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4100 ] - [ DEBUG ]  Adding type registration true_false -> org.hibernate.type.TrueFalseType@3f357ede
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4101 ] - [ DEBUG ]  Adding type registration yes_no -> org.hibernate.type.YesNoType@5408ba25
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4105 ] - [ DEBUG ]  Adding type registration byte -> org.hibernate.type.ByteType@5ec9acf0
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4105 ] - [ DEBUG ]  Adding type registration byte -> org.hibernate.type.ByteType@5ec9acf0
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4106 ] - [ DEBUG ]  Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@5ec9acf0
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4107 ] - [ DEBUG ]  Adding type registration character -> org.hibernate.type.CharacterType@675f222b
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4107 ] - [ DEBUG ]  Adding type registration char -> org.hibernate.type.CharacterType@675f222b
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4107 ] - [ DEBUG ]  Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@675f222b
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4109 ] - [ DEBUG ]  Adding type registration short -> org.hibernate.type.ShortType@156b7537
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4110 ] - [ DEBUG ]  Adding type registration short -> org.hibernate.type.ShortType@156b7537
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4110 ] - [ DEBUG ]  Adding type registration java.lang.Short -> org.hibernate.type.ShortType@156b7537
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4111 ] - [ DEBUG ]  Adding type registration integer -> org.hibernate.type.IntegerType@38747597
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4111 ] - [ DEBUG ]  Adding type registration int -> org.hibernate.type.IntegerType@38747597
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4112 ] - [ DEBUG ]  Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@38747597
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4113 ] - [ DEBUG ]  Adding type registration long -> org.hibernate.type.LongType@7260a330
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4114 ] - [ DEBUG ]  Adding type registration long -> org.hibernate.type.LongType@7260a330
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4114 ] - [ DEBUG ]  Adding type registration java.lang.Long -> org.hibernate.type.LongType@7260a330
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4115 ] - [ DEBUG ]  Adding type registration float -> org.hibernate.type.FloatType@24360ac1
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4116 ] - [ DEBUG ]  Adding type registration float -> org.hibernate.type.FloatType@24360ac1
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4116 ] - [ DEBUG ]  Adding type registration java.lang.Float -> org.hibernate.type.FloatType@24360ac1
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4117 ] - [ DEBUG ]  Adding type registration double -> org.hibernate.type.DoubleType@19663589
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4118 ] - [ DEBUG ]  Adding type registration double -> org.hibernate.type.DoubleType@19663589
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4118 ] - [ DEBUG ]  Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@19663589
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4120 ] - [ DEBUG ]  Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@775f8bae
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4120 ] - [ DEBUG ]  Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@775f8bae
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4121 ] - [ DEBUG ]  Adding type registration big_integer -> org.hibernate.type.BigIntegerType@699a1774
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4122 ] - [ DEBUG ]  Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@699a1774
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4150 ] - [ DEBUG ]  Adding type registration string -> org.hibernate.type.StringType@37f54031
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4150 ] - [ DEBUG ]  Adding type registration java.lang.String -> org.hibernate.type.StringType@37f54031
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4151 ] - [ DEBUG ]  Adding type registration nstring -> org.hibernate.type.StringNVarcharType@4bc95033
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4152 ] - [ DEBUG ]  Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@7eb4f107
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4153 ] - [ DEBUG ]  Adding type registration url -> org.hibernate.type.UrlType@1e743dae
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4153 ] - [ DEBUG ]  Adding type registration java.net.URL -> org.hibernate.type.UrlType@1e743dae
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4155 ] - [ DEBUG ]  Adding type registration date -> org.hibernate.type.DateType@6740568
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4155 ] - [ DEBUG ]  Adding type registration java.sql.Date -> org.hibernate.type.DateType@6740568
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4157 ] - [ DEBUG ]  Adding type registration time -> org.hibernate.type.TimeType@2d4b640a
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4157 ] - [ DEBUG ]  Adding type registration java.sql.Time -> org.hibernate.type.TimeType@2d4b640a
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4159 ] - [ DEBUG ]  Adding type registration timestamp -> org.hibernate.type.TimestampType@9f9449a
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4159 ] - [ DEBUG ]  Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@9f9449a
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4159 ] - [ DEBUG ]  Adding type registration java.util.Date -> org.hibernate.type.TimestampType@9f9449a
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4161 ] - [ DEBUG ]  Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@3553d71d
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4162 ] - [ DEBUG ]  Adding type registration calendar -> org.hibernate.type.CalendarType@56a9038f
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4162 ] - [ DEBUG ]  Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@56a9038f
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4162 ] - [ DEBUG ]  Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@56a9038f
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4163 ] - [ DEBUG ]  Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@2be97a73
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4164 ] - [ DEBUG ]  Adding type registration locale -> org.hibernate.type.LocaleType@2b1fe010
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4164 ] - [ DEBUG ]  Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@2b1fe010
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4165 ] - [ DEBUG ]  Adding type registration currency -> org.hibernate.type.CurrencyType@245215e7
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4166 ] - [ DEBUG ]  Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@245215e7
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4167 ] - [ DEBUG ]  Adding type registration timezone -> org.hibernate.type.TimeZoneType@57f221b6
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4167 ] - [ DEBUG ]  Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@57f221b6
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4168 ] - [ DEBUG ]  Adding type registration class -> org.hibernate.type.ClassType@178c47d
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4168 ] - [ DEBUG ]  Adding type registration java.lang.Class -> org.hibernate.type.ClassType@178c47d
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4170 ] - [ DEBUG ]  Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@64c97178
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4170 ] - [ DEBUG ]  Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@64c97178
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4171 ] - [ DEBUG ]  Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@299f7d90
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4172 ] - [ DEBUG ]  Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@4a9b4a2
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4173 ] - [ DEBUG ]  Adding type registration binary -> org.hibernate.type.BinaryType@3304e4e
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4173 ] - [ DEBUG ]  Adding type registration byte[] -> org.hibernate.type.BinaryType@3304e4e
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4173 ] - [ DEBUG ]  Adding type registration [B -> org.hibernate.type.BinaryType@3304e4e
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4174 ] - [ DEBUG ]  Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@1caae1f3
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4175 ] - [ DEBUG ]  Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@1caae1f3
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4175 ] - [ DEBUG ]  Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@1caae1f3
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4176 ] - [ DEBUG ]  Adding type registration image -> org.hibernate.type.ImageType@7c700250
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4177 ] - [ DEBUG ]  Adding type registration characters -> org.hibernate.type.CharArrayType@161ae5f1
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4177 ] - [ DEBUG ]  Adding type registration char[] -> org.hibernate.type.CharArrayType@161ae5f1
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4177 ] - [ DEBUG ]  Adding type registration [C -> org.hibernate.type.CharArrayType@161ae5f1
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4178 ] - [ DEBUG ]  Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@1a99f83d
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4179 ] - [ DEBUG ]  Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@1a99f83d
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4179 ] - [ DEBUG ]  Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@1a99f83d
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4180 ] - [ DEBUG ]  Adding type registration text -> org.hibernate.type.TextType@70aaedf2
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4180 ] - [ DEBUG ]  Adding type registration ntext -> org.hibernate.type.NTextType@584336bc
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4185 ] - [ DEBUG ]  Adding type registration blob -> org.hibernate.type.BlobType@47b9747
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4185 ] - [ DEBUG ]  Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@47b9747
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4186 ] - [ DEBUG ]  Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@1005ec04
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4189 ] - [ DEBUG ]  Adding type registration clob -> org.hibernate.type.ClobType@4089314f
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4190 ] - [ DEBUG ]  Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@4089314f
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4193 ] - [ DEBUG ]  Adding type registration nclob -> org.hibernate.type.NClobType@29c19925
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4193 ] - [ DEBUG ]  Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@29c19925
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4194 ] - [ DEBUG ]  Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@27abbcda
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4194 ] - [ DEBUG ]  Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@ac8df7b
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4195 ] - [ DEBUG ]  Adding type registration serializable -> org.hibernate.type.SerializableType@5c73a908
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4198 ] - [ DEBUG ]  Adding type registration object -> org.hibernate.type.ObjectType@25ae3e2d
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4198 ] - [ DEBUG ]  Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@25ae3e2d
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4199 ] - [ DEBUG ]  Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@57b0fd63
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4199 ] - [ DEBUG ]  Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@24cb9b8f
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4200 ] - [ DEBUG ]  Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@3351dc28
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4200 ] - [ DEBUG ]  Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@434ce06a
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4200 ] - [ DEBUG ]  Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@6c2171aa
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4200 ] - [ DEBUG ]  Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@7ad875c
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4201 ] - [ DEBUG ]  Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@1191acf4
+2013-09-20 21:53:33  [ Start Level Event Dispatcher:4201 ] - [ DEBUG ]  Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@72f1d02e
+2013-09-20 21:53:34  [ Start Level Event Dispatcher:4220 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2013-09-20 21:53:34  [ Start Level Event Dispatcher:4226 ] - [ INFO ]  HHH000412: Hibernate Core {4.2.0.Final}
+2013-09-20 21:53:34  [ Start Level Event Dispatcher:4228 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2013-09-20 21:53:34  [ Start Level Event Dispatcher:4229 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2013-09-20 21:53:34  [ Start Level Event Dispatcher:4241 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2013-09-20 21:53:34  [ Start Level Event Dispatcher:4242 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2013-09-20 21:53:34  [ Start Level Event Dispatcher:4243 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2013-09-20 21:53:34  [ Start Level Event Dispatcher:4243 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2013-09-20 21:53:34  [ Start Level Event Dispatcher:4244 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+2013-09-20 21:53:34  [ Start Level Event Dispatcher:4245 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2013-09-20 21:53:34  [ Start Level Event Dispatcher:4246 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2013-09-20 21:53:34  [ Start Level Event Dispatcher:4247 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2013-09-20 21:53:34  [ Start Level Event Dispatcher:4247 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+2013-09-20 21:53:34  [ Start Level Event Dispatcher:4248 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2013-09-20 21:53:34  [ Start Level Event Dispatcher:4248 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2013-09-20 21:53:34  [ Start Level Event Dispatcher:4249 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2013-09-20 21:53:34  [ Start Level Event Dispatcher:4250 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2013-09-20 21:53:34  [ Start Level Event Dispatcher:4250 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2013-09-20 21:53:34  [ Start Level Event Dispatcher:4251 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2013-09-20 21:53:34  [ Start Level Event Dispatcher:4253 ] - [ INFO ]  HHH000044: Configuring from URL: bundleresource://23.fwk992834491:1/application.properties
+2013-09-20 21:53:34  [ Framework Event Dispatcher:4299 ] - [ DEBUG ]  Export bundle :JShelf-Module-User_1.0.0.qualifier [23]
+2013-09-20 21:53:34  [ Framework Event Dispatcher:4484 ] - [ DEBUG ]  Request to get service, app name: BaseApplication, service name: net.worm.jshelf.base.sdk.service.IAppManager
+2013-09-20 21:53:34  [ Framework Event Dispatcher:4484 ] - [ DEBUG ]  Get app manager, return.
+2013-09-20 21:53:34  [ Framework Event Dispatcher:4484 ] - [ DEBUG ]  Export bundle :org.eclipse.osgi_3.8.0.v20120529-1548 [0]
+2013-09-20 21:53:34  [ Framework Event Dispatcher:4484 ] - [ DEBUG ]  Export bundle :org.apache.felix.gogo.shell_0.8.0.v201110170705 [1]
+2013-09-20 21:53:34  [ Framework Event Dispatcher:4485 ] - [ DEBUG ]  Export bundle :org.eclipse.equinox.console_1.0.0.v20120522-1841 [2]
+2013-09-20 21:53:34  [ Framework Event Dispatcher:4485 ] - [ DEBUG ]  Export bundle :JShelf-Core-SDK_1.0.0.qualifier [3]
+2013-09-20 21:53:34  [ Framework Event Dispatcher:4485 ] - [ DEBUG ]  Export bundle :org.apache.felix.gogo.runtime_0.8.0.v201108120515 [4]
+2013-09-20 21:53:34  [ Framework Event Dispatcher:4485 ] - [ DEBUG ]  Export bundle :javax.xml_1.3.4.v201005080400 [6]
+2013-09-20 21:53:34  [ Framework Event Dispatcher:4488 ] - [ DEBUG ]  Export bundle :org.apache.felix.gogo.command_0.8.0.v201108120515 [7]
+2013-09-20 21:53:34  [ Framework Event Dispatcher:4488 ] - [ DEBUG ]  Export bundle :javax.servlet_3.0.0.v201112011016 [8]
+2013-09-20 21:53:34  [ Framework Event Dispatcher:4488 ] - [ DEBUG ]  Export bundle :org.eclipse.osgi.services_3.3.100.v20120522-1822 [9]
+2013-09-20 21:53:34  [ Framework Event Dispatcher:4488 ] - [ DEBUG ]  Export bundle :org.eclipse.osgi.util_3.2.300.v20120522-1822 [10]
+2013-09-20 21:53:42  [ RMI TCP Connection(2)-192.168.1.101:12554 ] - [ DEBUG ]  )createUser(null
+2013-09-20 21:54:52  [ Start Level Event Dispatcher:0 ] - [ DEBUG ]  Base bundle activator start.
+2013-09-20 21:54:57  [ Start Level Event Dispatcher:4106 ] - [ INFO ]  ServiceContext initialized as local.
+2013-09-20 21:55:00  [ Start Level Event Dispatcher:7561 ] - [ DEBUG ]  RMI exporter initial, using port number:1099
+2013-09-20 21:55:00  [ Start Level Event Dispatcher:7583 ] - [ DEBUG ]  Base bundle activator started.
+2013-09-20 21:55:00  [ Framework Event Dispatcher:7586 ] - [ DEBUG ]  Export bundle :JShelf-Core-Base_1.0.0.qualifier [21]
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86562 ] - [ DEBUG ]  Request to get service, app name: BaseApplication, service name: net.worm.jshelf.base.sdk.service.IAppManager
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86563 ] - [ DEBUG ]  Get app manager, return.
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86564 ] - [ DEBUG ]  Request to get service, app name: BaseApplication, service name: net.worm.jshelf.base.sdk.service.IDataManager
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86565 ] - [ DEBUG ]  Get data manager, return.
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86614 ] - [ DEBUG ]  Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86634 ] - [ DEBUG ]  Adding type registration boolean -> org.hibernate.type.BooleanType@36372287
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86634 ] - [ DEBUG ]  Adding type registration boolean -> org.hibernate.type.BooleanType@36372287
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86634 ] - [ DEBUG ]  Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@36372287
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86646 ] - [ DEBUG ]  Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@79885c3a
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86647 ] - [ DEBUG ]  Adding type registration true_false -> org.hibernate.type.TrueFalseType@5eb85400
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86648 ] - [ DEBUG ]  Adding type registration yes_no -> org.hibernate.type.YesNoType@5a24ad9b
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86652 ] - [ DEBUG ]  Adding type registration byte -> org.hibernate.type.ByteType@12aa6801
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86652 ] - [ DEBUG ]  Adding type registration byte -> org.hibernate.type.ByteType@12aa6801
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86653 ] - [ DEBUG ]  Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@12aa6801
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86654 ] - [ DEBUG ]  Adding type registration character -> org.hibernate.type.CharacterType@46fe469c
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86654 ] - [ DEBUG ]  Adding type registration char -> org.hibernate.type.CharacterType@46fe469c
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86654 ] - [ DEBUG ]  Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@46fe469c
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86656 ] - [ DEBUG ]  Adding type registration short -> org.hibernate.type.ShortType@78e8e481
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86657 ] - [ DEBUG ]  Adding type registration short -> org.hibernate.type.ShortType@78e8e481
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86657 ] - [ DEBUG ]  Adding type registration java.lang.Short -> org.hibernate.type.ShortType@78e8e481
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86658 ] - [ DEBUG ]  Adding type registration integer -> org.hibernate.type.IntegerType@26ed488d
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86658 ] - [ DEBUG ]  Adding type registration int -> org.hibernate.type.IntegerType@26ed488d
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86659 ] - [ DEBUG ]  Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@26ed488d
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86660 ] - [ DEBUG ]  Adding type registration long -> org.hibernate.type.LongType@2cd80b2a
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86661 ] - [ DEBUG ]  Adding type registration long -> org.hibernate.type.LongType@2cd80b2a
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86661 ] - [ DEBUG ]  Adding type registration java.lang.Long -> org.hibernate.type.LongType@2cd80b2a
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86662 ] - [ DEBUG ]  Adding type registration float -> org.hibernate.type.FloatType@781d929f
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86663 ] - [ DEBUG ]  Adding type registration float -> org.hibernate.type.FloatType@781d929f
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86663 ] - [ DEBUG ]  Adding type registration java.lang.Float -> org.hibernate.type.FloatType@781d929f
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86665 ] - [ DEBUG ]  Adding type registration double -> org.hibernate.type.DoubleType@6c5cce75
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86665 ] - [ DEBUG ]  Adding type registration double -> org.hibernate.type.DoubleType@6c5cce75
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86665 ] - [ DEBUG ]  Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@6c5cce75
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86667 ] - [ DEBUG ]  Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@6efe72b9
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86668 ] - [ DEBUG ]  Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@6efe72b9
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86669 ] - [ DEBUG ]  Adding type registration big_integer -> org.hibernate.type.BigIntegerType@459af028
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86669 ] - [ DEBUG ]  Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@459af028
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86671 ] - [ DEBUG ]  Adding type registration string -> org.hibernate.type.StringType@438e1b3e
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86671 ] - [ DEBUG ]  Adding type registration java.lang.String -> org.hibernate.type.StringType@438e1b3e
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86672 ] - [ DEBUG ]  Adding type registration nstring -> org.hibernate.type.StringNVarcharType@439af694
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86673 ] - [ DEBUG ]  Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@7f0c1444
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86674 ] - [ DEBUG ]  Adding type registration url -> org.hibernate.type.UrlType@7f405c3
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86674 ] - [ DEBUG ]  Adding type registration java.net.URL -> org.hibernate.type.UrlType@7f405c3
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86676 ] - [ DEBUG ]  Adding type registration date -> org.hibernate.type.DateType@63203b59
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86677 ] - [ DEBUG ]  Adding type registration java.sql.Date -> org.hibernate.type.DateType@63203b59
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86678 ] - [ DEBUG ]  Adding type registration time -> org.hibernate.type.TimeType@103d96a6
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86679 ] - [ DEBUG ]  Adding type registration java.sql.Time -> org.hibernate.type.TimeType@103d96a6
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86680 ] - [ DEBUG ]  Adding type registration timestamp -> org.hibernate.type.TimestampType@21d96c05
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86681 ] - [ DEBUG ]  Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@21d96c05
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86681 ] - [ DEBUG ]  Adding type registration java.util.Date -> org.hibernate.type.TimestampType@21d96c05
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86683 ] - [ DEBUG ]  Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@2ae43476
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86684 ] - [ DEBUG ]  Adding type registration calendar -> org.hibernate.type.CalendarType@5b7e62ad
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86684 ] - [ DEBUG ]  Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@5b7e62ad
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86684 ] - [ DEBUG ]  Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@5b7e62ad
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86685 ] - [ DEBUG ]  Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@6adaf50c
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86686 ] - [ DEBUG ]  Adding type registration locale -> org.hibernate.type.LocaleType@1aa58969
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86687 ] - [ DEBUG ]  Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@1aa58969
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86688 ] - [ DEBUG ]  Adding type registration currency -> org.hibernate.type.CurrencyType@3ff70d3c
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86688 ] - [ DEBUG ]  Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@3ff70d3c
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86689 ] - [ DEBUG ]  Adding type registration timezone -> org.hibernate.type.TimeZoneType@4126c845
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86689 ] - [ DEBUG ]  Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@4126c845
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86691 ] - [ DEBUG ]  Adding type registration class -> org.hibernate.type.ClassType@50d9370d
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86691 ] - [ DEBUG ]  Adding type registration java.lang.Class -> org.hibernate.type.ClassType@50d9370d
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86693 ] - [ DEBUG ]  Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@4d716e12
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86693 ] - [ DEBUG ]  Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@4d716e12
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86694 ] - [ DEBUG ]  Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@a16a0cb
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86695 ] - [ DEBUG ]  Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@18019c40
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86696 ] - [ DEBUG ]  Adding type registration binary -> org.hibernate.type.BinaryType@3d19dc64
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86696 ] - [ DEBUG ]  Adding type registration byte[] -> org.hibernate.type.BinaryType@3d19dc64
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86697 ] - [ DEBUG ]  Adding type registration [B -> org.hibernate.type.BinaryType@3d19dc64
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86698 ] - [ DEBUG ]  Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@747eea52
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86698 ] - [ DEBUG ]  Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@747eea52
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86698 ] - [ DEBUG ]  Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@747eea52
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86699 ] - [ DEBUG ]  Adding type registration image -> org.hibernate.type.ImageType@1679b7fc
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86701 ] - [ DEBUG ]  Adding type registration characters -> org.hibernate.type.CharArrayType@4afd218
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86701 ] - [ DEBUG ]  Adding type registration char[] -> org.hibernate.type.CharArrayType@4afd218
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86701 ] - [ DEBUG ]  Adding type registration [C -> org.hibernate.type.CharArrayType@4afd218
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86703 ] - [ DEBUG ]  Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@43413f6c
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86703 ] - [ DEBUG ]  Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@43413f6c
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86703 ] - [ DEBUG ]  Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@43413f6c
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86704 ] - [ DEBUG ]  Adding type registration text -> org.hibernate.type.TextType@52c64a78
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86705 ] - [ DEBUG ]  Adding type registration ntext -> org.hibernate.type.NTextType@22696f5a
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86711 ] - [ DEBUG ]  Adding type registration blob -> org.hibernate.type.BlobType@240614a7
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86712 ] - [ DEBUG ]  Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@240614a7
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86713 ] - [ DEBUG ]  Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@1a239ad8
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86717 ] - [ DEBUG ]  Adding type registration clob -> org.hibernate.type.ClobType@3b46184c
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86717 ] - [ DEBUG ]  Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@3b46184c
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86721 ] - [ DEBUG ]  Adding type registration nclob -> org.hibernate.type.NClobType@c1261a6
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86721 ] - [ DEBUG ]  Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@c1261a6
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86722 ] - [ DEBUG ]  Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@a0c508b
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86722 ] - [ DEBUG ]  Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@6faa85f6
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86724 ] - [ DEBUG ]  Adding type registration serializable -> org.hibernate.type.SerializableType@6dea5e6f
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86726 ] - [ DEBUG ]  Adding type registration object -> org.hibernate.type.ObjectType@24cb9b8f
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86727 ] - [ DEBUG ]  Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@24cb9b8f
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86727 ] - [ DEBUG ]  Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@8a7b551
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86728 ] - [ DEBUG ]  Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@3a70dd47
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86728 ] - [ DEBUG ]  Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@47cf7e4a
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86728 ] - [ DEBUG ]  Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@76c511b
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86728 ] - [ DEBUG ]  Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@5840c76b
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86729 ] - [ DEBUG ]  Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@4e46f11
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86729 ] - [ DEBUG ]  Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@3137c799
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86729 ] - [ DEBUG ]  Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@4511270d
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86748 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86754 ] - [ INFO ]  HHH000412: Hibernate Core {4.2.0.Final}
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86756 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86758 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86770 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86771 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86772 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86772 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86773 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86774 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86775 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86776 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86776 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86777 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86778 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86778 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86779 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86780 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86781 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2013-09-20 21:56:19  [ Start Level Event Dispatcher:86783 ] - [ INFO ]  HHH000044: Configuring from URL: bundleresource://23.fwk1111246146:1/application.properties
+2013-09-20 21:56:19  [ Framework Event Dispatcher:86830 ] - [ DEBUG ]  Export bundle :JShelf-Module-User_1.0.0.qualifier [23]
+2013-09-20 21:56:20  [ Framework Event Dispatcher:87027 ] - [ DEBUG ]  Request to get service, app name: BaseApplication, service name: net.worm.jshelf.base.sdk.service.IAppManager
+2013-09-20 21:56:20  [ Framework Event Dispatcher:87028 ] - [ DEBUG ]  Get app manager, return.
+2013-09-20 21:56:20  [ Framework Event Dispatcher:87028 ] - [ DEBUG ]  Export bundle :org.eclipse.osgi_3.8.0.v20120529-1548 [0]
+2013-09-20 21:56:20  [ Framework Event Dispatcher:87028 ] - [ DEBUG ]  Export bundle :org.apache.felix.gogo.shell_0.8.0.v201110170705 [1]
+2013-09-20 21:56:20  [ Framework Event Dispatcher:87028 ] - [ DEBUG ]  Export bundle :org.eclipse.equinox.console_1.0.0.v20120522-1841 [2]
+2013-09-20 21:56:20  [ Framework Event Dispatcher:87028 ] - [ DEBUG ]  Export bundle :JShelf-Core-SDK_1.0.0.qualifier [3]
+2013-09-20 21:56:20  [ Framework Event Dispatcher:87029 ] - [ DEBUG ]  Export bundle :org.apache.felix.gogo.runtime_0.8.0.v201108120515 [4]
+2013-09-20 21:56:20  [ Framework Event Dispatcher:87029 ] - [ DEBUG ]  Export bundle :javax.xml_1.3.4.v201005080400 [6]
+2013-09-20 21:56:20  [ Framework Event Dispatcher:87031 ] - [ DEBUG ]  Export bundle :org.apache.felix.gogo.command_0.8.0.v201108120515 [7]
+2013-09-20 21:56:20  [ Framework Event Dispatcher:87031 ] - [ DEBUG ]  Export bundle :javax.servlet_3.0.0.v201112011016 [8]
+2013-09-20 21:56:20  [ Framework Event Dispatcher:87032 ] - [ DEBUG ]  Export bundle :org.eclipse.osgi.services_3.3.100.v20120522-1822 [9]
+2013-09-20 21:56:20  [ Framework Event Dispatcher:87032 ] - [ DEBUG ]  Export bundle :org.eclipse.osgi.util_3.2.300.v20120522-1822 [10]

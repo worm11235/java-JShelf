@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<appconfig>
+    <appinfo>
+        <name>BaseUserApp</name>
+        <class>net.worm.jshelf.user.app.UserApplication</class>
+    </appinfo>
+    <services>
+        <service autostart="true" mode="both">
+            <name>BaseUserMgr</name>
+            <class>net.worm.jshelf.user.service.impl.BaseUserMgr</class>
+            <interface>net.worm.jshelf.user.sdk.service.IUserManager</interface>
+        </service>
+    </services>
+</appconfig>
