@@ -4,17 +4,24 @@
 package net.exp.view;
 
 import java.awt.BorderLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 import javax.swing.JButton;
+import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 import javax.swing.JToolBar;
+
+import org.dom4j.DocumentException;
 
 /**
  * @author worm
  *
  */
-public class MainPanel extends JFrame {
+public class MainPanel extends JFrame implements ActionListener {
 
+    private PaintPanel ppanel;
+    
 	/**
 	 * 
 	 */
@@ -27,11 +34,46 @@ public class MainPanel extends JFrame {
 		JToolBar tool = new JToolBar();
 		this.add(tool, BorderLayout.NORTH);
 		tool.setFloatable(false);
-		tool.add(new JButton("Open"));
-		this.add(new PaintPanel(), BorderLayout.CENTER);
+		JButton btn = new JButton("Open");
+		btn.addActionListener(this);
+		tool.add(btn);
+		btn = new JButton("Change");
+		btn.addActionListener(this);
+		tool.add(btn);
+		
+		ppanel = new PaintPanel();
+		ppanel.setBar(true);
+		this.add(ppanel, BorderLayout.CENTER);
 		setSize(600, 800);
 		this.setEnabled(true);
 		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
 	}
+
+    @Override
+    public void actionPerformed(ActionEvent ae)
+    {
+        // TODO Auto-generated method stub
+        if ("Open".equals(ae.getActionCommand()))
+        {
+            JFileChooser jfc = new JFileChooser();
+            if (JFileChooser.APPROVE_OPTION == jfc.showOpenDialog(this))
+            {
+                try
+                {
+                    ppanel.loadXML(jfc.getSelectedFile());
+                    ppanel.repaint();
+                } catch (DocumentException e)
+                {
+                    // TODO Auto-generated catch block
+                    e.printStackTrace();
+                }
+            }
+        }
+        else if ("Change".equals(ae.getActionCommand()))
+        {
+            ppanel.setBar(!ppanel.isBar());
+            ppanel.repaint();
+        }
+    }
 
 }

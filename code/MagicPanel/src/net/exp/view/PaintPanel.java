@@ -71,11 +71,6 @@ public final class PaintPanel extends JPanel
     public void paint(Graphics gr)
     {
         // TODO Auto-generated method stub
-        if (xLabel.isEmpty())
-        {
-            xLabel.add("s1");
-            xLabel.add("s2");
-        }
 
         Graphics2D g2 = (Graphics2D) gr;
         int w = this.getWidth();
@@ -91,7 +86,7 @@ public final class PaintPanel extends JPanel
         {
             g2.drawString(xLabel.get(i), (i + 1)
                     * (w - margin * 2 - yLabelWidth) / (xLabel.size() + 1), h
-                    - margin);
+                    - margin-legendHeight);
         }
 
         calculateStep();
@@ -101,14 +96,14 @@ public final class PaintPanel extends JPanel
         {
             g2.drawString((mind + i * step) + "", margin, (h - margin
                     - legendHeight - xLabelHeight)
-                    - i * h / (stepNum + 1));
+                    - i * ch / (stepNum + 1));
             Color clr = g2.getColor();
             g2.setColor(Color.GRAY);
             g2.drawLine(margin + yLabelWidth, (h - margin
                     - legendHeight - xLabelHeight)
-                    - i * h / (stepNum + 1), w - margin, (h - margin
+                    - i * ch / (stepNum + 1), w - margin, (h - margin
                             - legendHeight - xLabelHeight)
-                            - i * h / (stepNum + 1));
+                            - i * ch / (stepNum + 1));
             g2.setColor(clr);
         }
         int index = 0;
@@ -119,8 +114,8 @@ public final class PaintPanel extends JPanel
                     + legendLineW, h - margin);
             g2.setColor(colorMap[index % colorMap.length]);
             g2.drawLine(margin + yLabelWidth + legendW * index, h - margin
-                    + legendHeight / 2, margin + yLabelWidth + legendW * index
-                    + legendLineW, h - margin + legendHeight / 2);
+                    - legendHeight / 2, margin + yLabelWidth + legendW * index
+                    + legendLineW, h - margin - legendHeight / 2);
             
             
             if (bar)
@@ -128,9 +123,12 @@ public final class PaintPanel extends JPanel
                 int tmp = xLabel.size() * (yLabel.size() + 1) + 1;
                 for (int i = 0; i < xLabel.size(); i++)
                 {
-                    g2.drawRect(margin + yLabelWidth + cw/tmp*(1 + yLabel.size() * i + index),
-                            (int)(margin + ch - (dd.getValue().get(xLabel.get(i)) - mind)/step*ch/stepNum),
-                            cw/tmp, (int)((dd.getValue().get(xLabel.get(i)) - mind)/step*ch/stepNum));
+                    g2.setBackground(g2.getColor());
+                    g2.drawRect(margin + yLabelWidth + cw/tmp*(1 + yLabel.size() * i + i + index),
+                            (int)((h - margin
+                                    - legendHeight - xLabelHeight)
+                                    - (dd.getValue().get(xLabel.get(i)) - mind)/step * ch / (stepNum + 1)),
+                            cw/tmp, (int)((dd.getValue().get(xLabel.get(i)) - mind)/step*ch/(stepNum + 1)));
                 }
             }
             else
@@ -140,16 +138,19 @@ public final class PaintPanel extends JPanel
                 {
                     if (i == 0)
                     {
-                        y1 = (int) (margin + ch - (dd.getValue().get(xLabel.get(i)) - mind)/step*ch/stepNum);
+                        y1 = (int) (h - margin - legendHeight - xLabelHeight - (dd.getValue().get(xLabel.get(i)) - mind)/step*ch/(stepNum + 1));
                         continue;
                     }
-                    y2 = (int) (margin + ch - (dd.getValue().get(xLabel.get(i)) - mind)/step*ch/stepNum);
-                    g2.drawLine(margin + yLabelWidth + cw/xLabel.size()*(i+1), y1, margin + yLabelWidth + cw/xLabel.size()*(i+2), y2);
+                    y2 = (int) (h - margin - legendHeight - xLabelHeight - (dd.getValue().get(xLabel.get(i)) - mind)/step*ch/(stepNum + 1));
+                    g2.drawLine((i)
+                            * (w - margin * 2 - yLabelWidth) / (xLabel.size() + 1), y1, (i + 1)
+                            * (w - margin * 2 - yLabelWidth) / (xLabel.size() + 1), y2);
                     y1=y2;
                 }
             }
             
             g2.setColor(clr);
+            index++;
         }
     }
     
@@ -238,10 +239,15 @@ public final class PaintPanel extends JPanel
         }
     }
     
-    private void loadXML(String file) throws DocumentException
+    public void loadXML(String file) throws DocumentException
+    {
+        this.loadXML(new File(file));
+    }
+    
+    public void loadXML(File file) throws DocumentException
     {
         SAXReader reader = new SAXReader();
-        Document doc = reader.read(new File(file));
+        Document doc = reader.read(file);
         Element root = doc.getRootElement();
         List<Element> days = root.selectNodes("days");
         if (null != days && !days.isEmpty())
@@ -272,6 +278,22 @@ public final class PaintPanel extends JPanel
                 }
             }
         }
+    }
+
+    /**
+     * @return the bar
+     */
+    public boolean isBar()
+    {
+        return bar;
+    }
+
+    /**
+     * @param bar the bar to set
+     */
+    public void setBar(boolean bar)
+    {
+        this.bar = bar;
     }
 
     /**
