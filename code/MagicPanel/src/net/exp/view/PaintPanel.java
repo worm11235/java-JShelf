@@ -84,7 +84,7 @@ public final class PaintPanel extends JPanel
                 - xLabelHeight);
         for (int i = 0; i < xLabel.size(); i++)
         {
-            g2.drawString(xLabel.get(i), (i + 1)
+            g2.drawString(xLabel.get(i), margin + yLabelWidth+(i + 1)
                     * (w - margin * 2 - yLabelWidth) / (xLabel.size() + 1), h
                     - margin-legendHeight);
         }
@@ -142,8 +142,8 @@ public final class PaintPanel extends JPanel
                         continue;
                     }
                     y2 = (int) (h - margin - legendHeight - xLabelHeight - (dd.getValue().get(xLabel.get(i)) - mind)/step*ch/(stepNum + 1));
-                    g2.drawLine((i)
-                            * (w - margin * 2 - yLabelWidth) / (xLabel.size() + 1), y1, (i + 1)
+                    g2.drawLine(margin + yLabelWidth+(i)
+                            * (w - margin * 2 - yLabelWidth) / (xLabel.size() + 1), y1, margin + yLabelWidth+(i + 1)
                             * (w - margin * 2 - yLabelWidth) / (xLabel.size() + 1), y2);
                     y1=y2;
                 }
