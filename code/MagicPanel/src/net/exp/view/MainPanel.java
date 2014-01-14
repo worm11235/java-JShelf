@@ -61,7 +61,7 @@ public class MainPanel extends JFrame implements ActionListener {
                 try
                 {
                     ppanel.loadXML(jfc.getSelectedFile());
-                    ppanel.repaint();
+                    repaint();
                 } catch (DocumentException e)
                 {
                     // TODO Auto-generated catch block
@@ -72,7 +72,7 @@ public class MainPanel extends JFrame implements ActionListener {
         else if ("Change".equals(ae.getActionCommand()))
         {
             ppanel.setBar(!ppanel.isBar());
-            ppanel.repaint();
+            repaint();
         }
     }
 
