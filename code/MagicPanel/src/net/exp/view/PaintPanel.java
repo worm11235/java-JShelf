@@ -5,9 +5,7 @@
  */
 package net.exp.view;
 
-import java.awt.Color;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
+import java.awt.*;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -68,7 +66,7 @@ public final class PaintPanel extends JPanel
     private double step;
 
     @Override
-    public void paint(Graphics gr)
+    public void paintComponent(Graphics gr)
     {
         // TODO Auto-generated method stub
 
@@ -96,14 +94,14 @@ public final class PaintPanel extends JPanel
         {
             g2.drawString((mind + i * step) + "", margin, (h - margin
                     - legendHeight - xLabelHeight)
-                    - i * ch / (stepNum + 1));
+                    - i * ch / (stepNum));
             Color clr = g2.getColor();
             g2.setColor(Color.GRAY);
             g2.drawLine(margin + yLabelWidth, (h - margin
                     - legendHeight - xLabelHeight)
-                    - i * ch / (stepNum + 1), w - margin, (h - margin
+                    - i * ch / (stepNum), w - margin, (h - margin
                             - legendHeight - xLabelHeight)
-                            - i * ch / (stepNum + 1));
+                            - i * ch / (stepNum));
             g2.setColor(clr);
         }
         int index = 0;
@@ -124,29 +122,32 @@ public final class PaintPanel extends JPanel
                 for (int i = 0; i < xLabel.size(); i++)
                 {
                     g2.setBackground(g2.getColor());
-                    g2.drawRect(margin + yLabelWidth + cw/tmp*(1 + yLabel.size() * i + i + index),
+                    g2.fillRect(margin + yLabelWidth + cw/tmp*(1 + yLabel.size() * i + i + index),
                             (int)((h - margin
                                     - legendHeight - xLabelHeight)
-                                    - (dd.getValue().get(xLabel.get(i)) - mind)/step * ch / (stepNum + 1)),
-                            cw/tmp, (int)((dd.getValue().get(xLabel.get(i)) - mind)/step*ch/(stepNum + 1)));
+                                    - (dd.getValue().get(xLabel.get(i)) - mind)/step * ch / (stepNum)),
+                            cw/tmp, (int)((dd.getValue().get(xLabel.get(i)) - mind)/step*ch/(stepNum)));
                 }
             }
             else
             {
+                Stroke old = g2.getStroke();
+                g2.setStroke(new BasicStroke(2));
                 int y1 = 0, y2 = 0;
                 for (int i = 0; i < xLabel.size(); i++)
                 {
                     if (i == 0)
                     {
-                        y1 = (int) (h - margin - legendHeight - xLabelHeight - (dd.getValue().get(xLabel.get(i)) - mind)/step*ch/(stepNum + 1));
+                        y1 = (int) (h - margin - legendHeight - xLabelHeight - (dd.getValue().get(xLabel.get(i)) - mind)/step*ch/(stepNum));
                         continue;
                     }
-                    y2 = (int) (h - margin - legendHeight - xLabelHeight - (dd.getValue().get(xLabel.get(i)) - mind)/step*ch/(stepNum + 1));
+                    y2 = (int) (h - margin - legendHeight - xLabelHeight - (dd.getValue().get(xLabel.get(i)) - mind)/step*ch/(stepNum));
                     g2.drawLine(margin + yLabelWidth+(i)
                             * (w - margin * 2 - yLabelWidth) / (xLabel.size() + 1), y1, margin + yLabelWidth+(i + 1)
                             * (w - margin * 2 - yLabelWidth) / (xLabel.size() + 1), y2);
                     y1=y2;
                 }
+                g2.setStroke(old);
             }
             
             g2.setColor(clr);
@@ -246,6 +247,9 @@ public final class PaintPanel extends JPanel
     
     public void loadXML(File file) throws DocumentException
     {
+        data.clear();
+        xLabel.clear();
+        yLabel.clear();
         SAXReader reader = new SAXReader();
         Document doc = reader.read(file);
         Element root = doc.getRootElement();
