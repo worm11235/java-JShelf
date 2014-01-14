@@ -68,8 +68,6 @@ public final class PaintPanel extends JPanel
     @Override
     public void paintComponent(Graphics gr)
     {
-        // TODO Auto-generated method stub
-
         Graphics2D g2 = (Graphics2D) gr;
         int w = this.getWidth();
         int h = this.getHeight();
@@ -80,7 +78,7 @@ public final class PaintPanel extends JPanel
         g2.drawLine(margin + yLabelWidth, h - margin - legendHeight
                 - xLabelHeight, w - margin, h - margin - legendHeight
                 - xLabelHeight);
-        for (int i = 0; i < xLabel.size(); i++)
+        for (int i = 0; !bar && i < xLabel.size(); i++)
         {
             g2.drawString(xLabel.get(i), margin + yLabelWidth+(i + 1)
                     * (w - margin * 2 - yLabelWidth) / (xLabel.size() + 1), h
@@ -114,8 +112,7 @@ public final class PaintPanel extends JPanel
             g2.drawLine(margin + yLabelWidth + legendW * index, h - margin
                     - legendHeight / 2, margin + yLabelWidth + legendW * index
                     + legendLineW, h - margin - legendHeight / 2);
-            
-            
+
             if (bar)
             {
                 int tmp = xLabel.size() * (yLabel.size() + 1) + 1;
@@ -127,9 +124,14 @@ public final class PaintPanel extends JPanel
                                     - legendHeight - xLabelHeight)
                                     - (dd.getValue().get(xLabel.get(i)) - mind)/step * ch / (stepNum)),
                             cw/tmp, (int)((dd.getValue().get(xLabel.get(i)) - mind)/step*ch/(stepNum)));
+                    if (0 == index)
+                    {
+                        g2.drawString(xLabel.get(i),
+                                margin + yLabelWidth + cw/tmp*(1 + yLabel.size() * i + yLabel.size()/2 + i + index), h
+                                - margin-legendHeight);
+                    }
                 }
-            }
-            else
+            } else
             {
                 Stroke old = g2.getStroke();
                 g2.setStroke(new BasicStroke(2));
