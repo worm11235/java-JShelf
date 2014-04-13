@@ -9,6 +9,7 @@ import java.rmi.Naming;
 import java.rmi.RemoteException;
 
 import net.worm.jshelf.base.log.AppLogger;
+import net.worm.jshelf.base.sdk.model.ApplicationBo;
 import net.worm.jshelf.base.sdk.model.ServiceBo;
 import net.worm.jshelf.base.sdk.service.IAppManager;
 import net.worm.jshelf.base.sdk.service.IApplication;
@@ -112,7 +113,7 @@ public final class ServiceContext
             //其他服务，先获取应用，然后从应用的服务列表中获取服务引用，从而获取服务实例。
             if (null != mgr)
             {
-                IApplication app = null;
+                ApplicationBo app = null;
                 try
                 {
                     app = mgr.getApp(appName);
@@ -122,7 +123,7 @@ public final class ServiceContext
                 }
                 if (null != app)
                 {
-                    for (ServiceBo sb : app.getService())
+                    for (ServiceBo sb : app.getServiceList())
                     {
                         if (sb.getName().equals(svrName))
                         {

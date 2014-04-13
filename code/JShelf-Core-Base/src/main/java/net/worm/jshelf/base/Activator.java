@@ -8,6 +8,7 @@ import net.worm.jshelf.base.sdk.service.IDataManager;
 import net.worm.jshelf.base.service.ServiceContext;
 import net.worm.jshelf.base.service.impl.AppManager;
 import net.worm.jshelf.base.service.impl.DataManager;
+import net.worm.jshelf.base.util.RmiConfig;
 import net.worm.jshelf.base.util.RmiExporter;
 
 import org.osgi.framework.BundleActivator;
@@ -48,8 +49,8 @@ public class Activator implements BundleActivator
         
         ServiceContext.getInstance().initial(context);
         
-        bundleContext.addBundleListener(RmiExporter.getInstance(1099));
-        bundleContext.addFrameworkListener(RmiExporter.getInstance(1097));
+        bundleContext.addBundleListener(RmiExporter.getInstance(RmiConfig.getInstance().getServerPort()));
+        bundleContext.addFrameworkListener(RmiExporter.getInstance(RmiConfig.getInstance().getServerPort()));
         log.debug("Base bundle activator started.");
     }
 

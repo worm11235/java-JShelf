@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<appconfig>
+    <appinfo>
+        <name>BaseApplication</name>
+        <class>net.worm.jshelf.base.app.BaseApplication</class>
+    </appinfo>
+    <services>
+        <service autostart="true" mode="both">
+            <name>net.worm.jshelf.base.sdk.service.IAppManager</name>
+            <class>net.worm.jshelf.base.service.impl.AppManager</class>
+            <interface>net.worm.jshelf.base.sdk.service.IAppManager</interface>
+        </service>
+        <service autostart="true" mode="both">
+            <name>net.worm.jshelf.base.sdk.service.IDataManager</name>
+            <class>net.worm.jshelf.base.service.impl.DataManager</class>
+            <interface>net.worm.jshelf.base.sdk.service.IDataManager</interface>
+        </service>
+    </services>
+</appconfig>

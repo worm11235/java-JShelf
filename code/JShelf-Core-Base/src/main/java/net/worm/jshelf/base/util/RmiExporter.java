@@ -19,9 +19,9 @@ import java.util.Map;
 import net.worm.jshelf.base.config.AppConfig;
 import net.worm.jshelf.base.config.ServiceConfig;
 import net.worm.jshelf.base.log.AppLogger;
+import net.worm.jshelf.base.sdk.model.ApplicationBo;
 import net.worm.jshelf.base.sdk.model.ServiceBo;
 import net.worm.jshelf.base.sdk.service.IAppManager;
-import net.worm.jshelf.base.sdk.service.IApplication;
 import net.worm.jshelf.base.service.BaseService;
 import net.worm.jshelf.base.service.ServiceContext;
 import net.worm.jshelf.base.service.handler.CglibProxyHandler;
@@ -205,7 +205,7 @@ public final class RmiExporter implements BundleListener,FrameworkListener
                     if (null != reg)
                     {
                         CglibProxyHandler cph = new CglibProxyHandler();
-                        Remote appStub = UnicastRemoteObject.exportObject((Remote) cph.getInstance(svr), 1099);
+                        Remote appStub = UnicastRemoteObject.exportObject((Remote) cph.getInstance(svr), RmiConfig.getInstance().getServerPort());
                         reg.bind(uri, appStub);
                         RmiServiceInfo rsi = new RmiServiceInfo();
                         rsi.setBundle(me);
@@ -226,10 +226,10 @@ public final class RmiExporter implements BundleListener,FrameworkListener
             IAppManager iam = (IAppManager) ServiceContext.getInstance().getService("BaseApplication", IAppManager.class.getName());
             try
             {
-                IApplication ia = iam.getApp(ac.getName());
+                ApplicationBo ia = iam.getApp(ac.getName());
                 for (RmiServiceInfo rsi : list)
                 {
-                    ServiceBo sb = findServiceBo(ia.getService(), rsi.getName());
+                    ServiceBo sb = findServiceBo(ia.getServiceList(), rsi.getName());
                     
                     if (null != sb)
                     {
@@ -245,7 +245,7 @@ public final class RmiExporter implements BundleListener,FrameworkListener
                         sb.setType(ServiceConfig.MODE_REMOTE);
                         sb.setUri(rsi.getUri());
                         sb.setDesc(rsi.getDesc());
-                        ia.getService().add(sb);
+                        ia.getServiceList().add(sb);
                     }
                     
                 }

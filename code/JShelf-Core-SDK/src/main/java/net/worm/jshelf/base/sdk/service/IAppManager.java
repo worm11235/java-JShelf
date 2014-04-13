@@ -10,6 +10,8 @@ import java.rmi.Remote;
 import java.rmi.RemoteException;
 import java.util.Map;
 
+import net.worm.jshelf.base.sdk.model.ApplicationBo;
+
 /**
  * @author worm
  *
@@ -22,7 +24,7 @@ public interface IAppManager extends Remote, Serializable
      * @param obj
      * @return
      */
-    String registerApp(IApplication app) throws RemoteException;
+    String registerApp(ApplicationBo app) throws RemoteException;
     
     /**
      * 注销应用
@@ -37,12 +39,12 @@ public interface IAppManager extends Remote, Serializable
      * @param key
      * @return
      */
-    IApplication getApp(String key) throws RemoteException;
+    ApplicationBo getApp(String key) throws RemoteException;
     
     /**
      * 列出应用
      * 
      * @return
      */
-    Map<String, IApplication> listApp() throws RemoteException;
+    Map<String, ApplicationBo> listApp() throws RemoteException;
 }

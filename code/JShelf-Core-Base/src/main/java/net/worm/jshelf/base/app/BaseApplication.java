@@ -45,7 +45,6 @@ public class BaseApplication implements IApplication
     
     private int status = STATUS_WAIT;
     
-
     /**
      * 
      */
@@ -239,7 +238,7 @@ public class BaseApplication implements IApplication
         IAppManager mgr = (IAppManager) ServiceContext.getInstance().getService("BaseApplication", IAppManager.class.getName());
         try
         {
-            mgr.registerApp(this);
+            mgr.registerApp(ab);
         }
         catch (RemoteException e)
         {

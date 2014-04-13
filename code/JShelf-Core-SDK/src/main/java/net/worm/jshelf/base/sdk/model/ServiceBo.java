@@ -29,7 +29,7 @@ public final class ServiceBo implements Serializable
 
     private String desc;
 
-    private ServiceReference reference;
+    private transient ServiceReference reference;
 
     private int type;
 

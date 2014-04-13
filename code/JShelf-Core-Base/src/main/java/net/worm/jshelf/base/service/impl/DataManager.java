@@ -11,6 +11,7 @@ import java.net.URL;
 import java.rmi.Remote;
 
 import net.worm.jshelf.base.sdk.service.IDataManager;
+import net.worm.jshelf.base.service.BaseService;
 
 import org.hibernate.HibernateException;
 import org.hibernate.MappingException;
@@ -22,7 +23,7 @@ import org.hibernate.service.ServiceRegistry;
  * @author worm
  *
  */
-public class DataManager implements IDataManager, Remote
+public class DataManager extends BaseService implements IDataManager, Remote
 {
     /**
      * 

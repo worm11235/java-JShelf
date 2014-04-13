@@ -13,14 +13,16 @@ import java.rmi.registry.Registry;
 import java.util.HashMap;
 import java.util.Map;
 
+import net.worm.jshelf.base.sdk.model.ApplicationBo;
 import net.worm.jshelf.base.sdk.service.IAppManager;
 import net.worm.jshelf.base.sdk.service.IApplication;
+import net.worm.jshelf.base.service.BaseService;
 
 /**
  * @author worm
  *
  */
-public class AppManager implements IAppManager
+public class AppManager extends BaseService implements IAppManager
 {
     
     /**
@@ -31,7 +33,7 @@ public class AppManager implements IAppManager
     /**
      * 
      */
-    private Map<String, IApplication> appContext = new HashMap<String, IApplication>();
+    private static Map<String, ApplicationBo> appContext = new HashMap<String, ApplicationBo>();
     
     private static Registry reg;
     
@@ -57,7 +59,7 @@ public class AppManager implements IAppManager
      * 
      */
     @Override
-    public String registerApp(IApplication obj)
+    public String registerApp(ApplicationBo obj)
     {
         if (null != obj && !appContext.containsKey(obj.getName()))
         {
@@ -85,7 +87,7 @@ public class AppManager implements IAppManager
      * 
      */
     @Override
-    public IApplication getApp(String key)
+    public ApplicationBo getApp(String key)
     {
         return appContext.get(key);
     }
@@ -94,7 +96,7 @@ public class AppManager implements IAppManager
      * 
      */
     @Override
-    public Map<String, IApplication> listApp()
+    public Map<String, ApplicationBo> listApp()
     {
         Map<String, Object> appMap = new HashMap<String, Object>();
         try

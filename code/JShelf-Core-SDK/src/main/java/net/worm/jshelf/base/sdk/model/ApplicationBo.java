@@ -6,6 +6,7 @@
 package net.worm.jshelf.base.sdk.model;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -26,9 +27,9 @@ public final class ApplicationBo implements Serializable, Cloneable
     
     private String desc;
     
-    private List<ServiceBo> serviceList;
+    private List<ServiceBo> serviceList = new ArrayList<ServiceBo>();
     
-    private List<BundleBo> bundleList;
+    private List<BundleBo> bundleList = new ArrayList<BundleBo>();
 
     /**
      * 
